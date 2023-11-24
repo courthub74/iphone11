@@ -1,1 +1,254 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+@media screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body .container {
+    background-color: #080E2F;
+    margin: 0;
+  }
+  * body .container .the_top_nav {
+    background-color: #080E2F;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 98;
+    height: 14vh;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents {
+    display: flex;
+    justify-content: space-between;
+  }
+  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 10vw;
+    transition: 3s all ease-in-out;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5vw;
+    background-color: white;
+  }
+  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    color: #080E2F;
+    font-size: 4vw;
+    text-decoration: none;
+  }
+  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents .you {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5vh;
+    margin: 5vh 0 0 -55vw;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents .you #name {
+    color: white;
+    font-size: 5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 0vw;
+  }
+  * body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
+    background-color: #36395D;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 5px;
+  }
+  * body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
+    color: #8081AA;
+    color: #080E2F;
+    font-size: 3.3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  * body .container .the_top_nav .nav_top_contents .you.appear {
+    opacity: 1;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents #top_hamburger {
+    width: 10vw;
+    height: 10vw;
+    margin: 6.5vh 15vw 0 0;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents #top_hamburger.dissapear {
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents .the_top_nav.dissapear {
+    opacity: 0;
+    transition: 1s all ease-out;
+  }
+  * body .container .the_top_nav .nav_top_contents .the_top_nav.appear {
+    opacity: 1;
+    transition: 0.7s all ease-in;
+  }
+  * body .container .section_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    height: 90vh;
+  }
+  * body .container .section_one .section_one_headshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0vh 0 0 0;
+  }
+  * body .container .section_one .section_one_headshot #home_headshot {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+    position: absolute;
+    margin: -30vw 0 0 0;
+  }
+  * body .container .section_one .section_one_headshot .back_circle {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  * body .container .section_one .section_one_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0 0 0;
+  }
+  * body .container .section_one .section_one_content .home_name {
+    margin: 0 0 1.5vh 0;
+  }
+  * body .container .section_one .section_one_content .home_name h1 {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 7vw;
+  }
+  * body .container .section_one .section_one_content .job_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 11vw;
+    background-color: #36395D;
+    background-color: white;
+    border-radius: 5px;
+  }
+  * body .container .section_one .section_one_content .job_description p {
+    font-family: "Roboto", sans-serif;
+    color: #8081AA;
+    color: #080E2F;
+    font-size: 5vw;
+  }
+  * body .container .section_one .section_one_content .my_mantra {
+    display: flex;
+    margin: 10vh 0 0 0;
+  }
+  * body .container .section_one .section_one_content .my_mantra p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 5vw;
+    text-align: center;
+  }
+  * body .container .section_one .section_one_content .learn_more {
+    width: 70vw;
+    height: 10vw;
+    margin: 12vh 0 -15vh 0;
+    border-radius: 5px;
+    background-color: #36395D;
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.521);
+  }
+  * body .container .section_one .section_one_content .learn_more a {
+    color: #d9e2e2;
+    color: white;
+    color: #080E2F;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+  }
+  * body .container .section_two {
+    background-color: #146166;
+    height: 100vh;
+  }
+  * body .container .section_two .section_two_top {
+    display: flex;
+  }
+  * body .container .section_two .section_two_top .about_title {
+    font-family: "Inter", sans-serif;
+    font-size: 10vw;
+    color: white;
+    margin: 5vh 0 0 10vw;
+  }
+  * body .container .section_two .section_two_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0 0 0;
+  }
+  * body .container .section_two .section_two_bottom .about_content {
+    width: 82%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+  }
+  * body .container .section_two .section_two_bottom .about_content .about_page_Logo {
+    display: flex;
+    justify-content: center;
+    margin: 4vh 0 4vh 0;
+  }
+  * body .container .section_two .section_two_bottom .resume_button_div #dload_resume {
+    border: 2px solid #507E81;
+    border-radius: 5px;
+    background-color: #507E81;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
+    box-shadow: 5px 5px 4px #0e3f42;
+    margin: 4vh 0 0 0;
+    width: 70vw;
+    height: 10vw;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  }
+}
+@media screen and (min-width: 451px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body .container {
+    background-color: #00567F;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body .container {
+    background-color: #476D6B;
+    margin: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
