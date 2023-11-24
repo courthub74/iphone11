@@ -110,14 +110,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0vh 0 0 0;
+    margin: 0vh 5vw 0 0;
   }
   * body .container .section_one .section_one_headshot #home_headshot {
     width: 45vw;
     height: 45vw;
     border-radius: 50%;
     position: absolute;
-    margin: -30vw 0 0 0;
+    margin: -60vw 0 0 0;
   }
   * body .container .section_one .section_one_headshot .back_circle {
     width: 50vw;
@@ -129,7 +129,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3vh 0 0 0;
+    margin: -5vh 0 0 0;
   }
   * body .container .section_one .section_one_content .home_name {
     margin: 0 0 1.5vh 0;
