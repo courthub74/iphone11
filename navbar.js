@@ -12,7 +12,7 @@
 // in css give the extra class that sets it to one
 
 // query the nav bar
-let navbar = document.querySelector('.the_nav');
+let navbar = document.querySelector('.nav_top_contents');
 
 // query the top-nav
 let top_navbar = document.querySelector('.the_top_nav');
@@ -31,6 +31,7 @@ let lastScroll = 0;
 // FIRST start to be currentScroll = 0;
 
 window.addEventListener('scroll', function () {
+    // console.log(navbar);
     // set a current scroll
     let currentScroll = window.scrollY; 
     // compare current scroll to last scroll

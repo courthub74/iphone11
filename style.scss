@@ -70,6 +70,7 @@ $darkgrey: darkgrey;
                 // Top NavBar that is static
                 .the_top_nav {
                     background-color: $darkblue;
+                    // background-color: red;
                     position: sticky;
                     top: 0;
                     width: 100%;
@@ -155,15 +156,6 @@ $darkgrey: darkgrey;
                             opacity: 0;
                             transition: 1s all ease-in-out;
                         }
-                        // Make it dissapear
-                        .the_top_nav.dissapear {
-                            opacity: 0;
-                            transition: 1s all ease-out;
-                        }
-                        .the_top_nav.appear {
-                            opacity: 1;
-                            transition: .7s all ease-in;
-                        }
                         // // the Floating Nav at top of page dissapear
                         // .the_nav.dissapear {
                         //     opacity: 0;
@@ -182,6 +174,15 @@ $darkgrey: darkgrey;
                         //     transition: 1s all ease-out;
                         // }
                     }
+                }
+                // Make it dissapear
+                .the_top_nav.dissapear {
+                    opacity: 0;
+                    transition: 1s all ease-out;
+                }
+                .the_top_nav.appear {
+                    opacity: 1;
+                    transition: .7s all ease-in;
                 }
 
                 // Page Section
@@ -838,420 +839,936 @@ $darkgrey: darkgrey;
                 .section_four {
                     background-color: $skillsteal;
                     height: 100vh;
-                }
-                .section_four_top {
-                    display: flex;
-                    .skills_title {
-                        font-family: 'Inter', sans-serif;
-                        font-size: 10vw;
-                        color: white;
-                        margin: 5vh 0 0 10vw;
+                    .section_four_top {
+                        display: flex;
+                        .skills_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            color: white;
+                            margin: 5vh 0 0 10vw;
+                        }
                     }
-                }
-                .section_four_bottom {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    margin: 4vh 6vw 0 0;
-                    gap: 3vh;
-                    // Let's size the FRONTEND CIRCLES
-                    .skill_circle {
+                    .section_four_bottom {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 2vh 0 1vh 0;
-                        .skill_back {
-                            width: 25vw;
-                            height: 25vw;
-                            border: 3px solid $mainblue;
-                            background-color: $skillsteal;
-                            box-shadow: 2px 2px $boxshadowcircles;
-                            // box-shadow: 2px 2px black;
-                            // background-color: yellow;
-                            border-radius: 50%;
-                            // position: relative;
-                        }
-                        .skill_front {
-                            width: 23vw;
-                            height: 23vw;
-                            border: 1px solid $mainblue;
-                            background-color: $mainblue;
-                            border-radius: 50%;
-                            position: absolute;
+                        margin: 4vh 6vw 0 0;
+                        gap: 3vh;
+                        // Let's size the FRONTEND CIRCLES
+                        .skill_circle {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            // box-shadow: 1px 1px 3px $boxshadowcircles;
-                            // html / css icons sizing
-                            .shield {
-                                width: 13vw;
-                                height: 12vw;
-                                margin: 1vh 0 1vh 0;
+                            margin: 2vh 0 1vh 0;
+                            .skill_back {
+                                width: 25vw;
+                                height: 25vw;
+                                border: 3px solid $mainblue;
+                                background-color: $skillsteal;
+                                box-shadow: 2px 2px $boxshadowcircles;
+                                // box-shadow: 2px 2px black;
+                                // background-color: yellow;
+                                border-radius: 50%;
+                                // position: relative;
                             }
-                            // html
-                            #html {
-                                transition: .7s all ease-in;
+                            .skill_front {
+                                width: 23vw;
+                                height: 23vw;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
                                 position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                // box-shadow: 1px 1px 3px $boxshadowcircles;
+                                // html / css icons sizing
+                                .shield {
+                                    width: 13vw;
+                                    height: 12vw;
+                                    margin: 1vh 0 1vh 0;
+                                }
+                                // html
+                                #html {
+                                    transition: .7s all ease-in;
+                                    position: absolute;
+                                }
+                                #html.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #html_description {
+                                    opacity: 0;
+                                }
+                                #html_description.show {
+                                    transition: .5s all ease-in;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                // css
+                                #css {
+                                    position: absolute;
+                                }
+                                #css.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #css_description {
+                                    opacity: 0;
+                                }
+                                #css_description.show {
+                                    transition: .5s all ease-in;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                // sass
+                                #sass {
+                                    transition: .7s all ease-in;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    margin: 0vh 0 0vh .8vw;
+                                    position: absolute;
+                                }
+                                #sass.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #sass_description {
+                                    opacity: 0;
+                                }
+                                #sass_description.show {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                // react
+                                #react {
+                                    transition: .7s all ease-in;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    margin: 1vh 0 1vh 0;
+                                    position: absolute;
+                                }
+                                #react.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #react_description {
+                                    opacity: 0;
+                                }
+                                #react_description.show {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                // react native
+                                #react_native {
+                                    transition: .7s all ease-in;
+                                    width: 15vw;
+                                    height: 14vw;
+                                    margin: 1vh 0 1vh 0;
+                                    position: absolute;
+                                }
+                                #react_native.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #react_native_description {
+                                    opacity: 0;
+                                }
+                                #react_native_description.show {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                #figma {
+                                    transition: .7s all ease-in;
+                                    width: 13.5vw;
+                                    height: 13vw;
+                                    margin: 1vh 0 1vh 0;
+                                    position: absolute;
+                                }
+                                #figma.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #figma_description {
+                                    opacity: 0;
+                                }
+                                #figma_description.show {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
+                                }
+                                #javascript {
+                                    transition: .7s all ease-in;
+                                    width: 14vw;
+                                    height: 14vw;
+                                    margin: .8vh 0 1vh 0;
+                                    position: absolute;
+                                }
+                                #javascript.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                #javascript_description {
+                                    opacity: 0;
+                                }
+                                #javascript_description.show {
+                                    transition: .7s all ease-in;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                #python {
+                                    transition: .7s all ease-in;
+                                    width: 11vw;
+                                    height: 11vw;
+                                    margin: .8vh 0 1vh 0;
+                                    position: absolute;
+                                }
+                                #python.dissapear {
+                                    transition: .3s all ease-in;
+                                    opacity: 0;
+                                }
+                                #python_description {
+                                    opacity: 0;
+                                }
+                                #python_description.show {
+                                    transition: .8s all ease-out;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                #expressjs {
+                                    transition: .7s all ease-in;
+                                    width: 11vw;
+                                    height: 11vw;
+                                    margin: 0 0 .4vh 0;
+                                    position: absolute;
+                                }
+                                #expressjs.dissapear {
+                                    transition: .3s all ease-in;
+                                    opacity: 0;
+                                }
+                                #expressjs_description {
+                                    opacity: 0;
+                                }
+                                #expressjs_description.show {
+                                    transition: .8s all ease-out;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                #django {
+                                    transition: .7s all ease-in;
+                                    width: 11vw;
+                                    height: 9vw;
+                                    margin: 0 1vw 0 0;
+                                    position: absolute;
+                                }
+                                #django.dissapear {
+                                    transition: .3s all ease-in;
+                                    opacity: 0;
+                                }
+                                #django_description {
+                                    opacity: 0;
+                                }
+                                #django_description.show {
+                                    transition: .8s all ease-out;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    margin-top: -.3vh;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                #aws {
+                                    transition: .7s all ease-in;
+                                    width: 13vw;
+                                    height: 13vw;
+                                    margin: .5vh 0 .4vh 0;
+                                    position: absolute;
+                                }
+                                #aws.dissapear {
+                                    transition: .3s all ease-in;
+                                    opacity: 0;
+                                }
+                                #aws_description {
+                                    opacity: 0;
+                                }
+                                #aws_description.show {
+                                    transition: .8s all ease-out;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                #heroku {
+                                    transition: .7s all ease-in;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    margin: 0 0 .4vh 0;
+                                    position: absolute;
+                                }
+                                #heroku.dissapear {
+                                    transition: .3s all ease-in;
+                                    opacity: 0;
+                                }
+                                #heroku_description {
+                                    opacity: 0;
+                                }
+                                #heroku_description.show {
+                                    transition: .8s all ease-out;
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    opacity: 1;
+                                }
+                                // .description {
+                                //     transition: .7s all ease-in;
+                                //     font-family: 'Roboto', sans-serif;
+                                //     font-size: 4vw;
+                                //     color: white;
+                                //     opacity: 0;
+                                // }
                             }
-                            #html.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
+                        }
+                        // Let's style the SKILL TITLES
+                        .responsive_title {
+                            font-family: 'Julius Sans One', sans-serif;
+                            font-size: 1.3em;
+                            color: white;
+                            margin: 2vh 0 0 0;
+                        }
+                        .user_interface_title {
+                            font-family: 'Julius Sans One', sans-serif;
+                            font-size: 1.3em;
+                            color: white;
+                            margin: 2vh 0 0 0;
+                        }
+                        .scripting_title {
+                            font-family: 'Julius Sans One', sans-serif;
+                            font-size: 1.3em;
+                            color: white;
+                            margin: 2vh 0 0 0;
+                        }
+                        .backend_title {
+                            font-family: 'Julius Sans One', sans-serif;
+                            font-size: 1.3em;
+                            color: white;
+                            margin: 2vh 0 0 0;
+                        }
+                        // Let's size the UNDERLINES
+                        .skills_underline {
+                            height: .8vh;
+                            border: none;
+                            border-radius: 5px;
+                            box-shadow: 3px 3px 5px $boxshadowcircles;
+                            background-color: $mainblue;
+                        }
+                        // RESPONSIVE DESIGN SECTION
+                        .responsive_design_div {
+                            display: flex;
+                            flex-direction: column;
+                            .responsive_design_circles {
+                                display: flex;
+                                gap: 1vw;
                             }
-                            #html_description {
-                                opacity: 0;
+                        }
+                        // USER INTERFACE SECTION
+                        .user_interface_div {
+                            display: flex;
+                            flex-direction: column;
+                            .user_interface_circles {
+                                display: flex;
+                                gap: 1vw;
                             }
-                            #html_description.show {
-                                transition: .5s all ease-in;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
+                        }
+                        // SCRIPTING SECTION
+                        .scripting_div {
+                            display: flex;
+                            flex-direction: column;
+                            .scripting_circles {
+                                display: flex;
+                                gap: 1vw;
                             }
-                            // css
-                            #css {
+                        }
+                        // BACKEND SECTION
+                        .backend_div {
+                            display: flex;
+                            flex-direction: column;
+                            .backend_circles {
+                                display: flex;
+                                gap: 1vw;
+                            }
+                        }
+                        // size the BACKEND CIRCLES
+                        .skill_circle_backend {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .skill_back_backend {
+                                width: 18.5vw;
+                                height: 18.5vw;
+                                border: 2px solid $mainblue;
+                                background-color: $skillsteal;
+                                // background-color: yellow;
+                                border-radius: 50%;
+                                // position: relative;
+                            }
+                            .skill_front_backend {
+                                width: 15.5vw;
+                                height: 15.5vw;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
                                 position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                p {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .7em;
+                                }
                             }
-                            #css.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #css_description {
-                                opacity: 0;
-                            }
-                            #css_description.show {
-                                transition: .5s all ease-in;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
-                            }
-                            // sass
-                            #sass {
-                                transition: .7s all ease-in;
-                                width: 12vw;
-                                height: 12vw;
-                                margin: 0vh 0 0vh .8vw;
-                                position: absolute;
-                            }
-                            #sass.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #sass_description {
-                                opacity: 0;
-                            }
-                            #sass_description.show {
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
-                            }
-                            // react
-                            #react {
-                                transition: .7s all ease-in;
-                                width: 12vw;
-                                height: 12vw;
-                                margin: 1vh 0 1vh 0;
-                                position: absolute;
-                            }
-                            #react.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #react_description {
-                                opacity: 0;
-                            }
-                            #react_description.show {
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
-                            }
-                            // react native
-                            #react_native {
-                                transition: .7s all ease-in;
-                                width: 15vw;
-                                height: 14vw;
-                                margin: 1vh 0 1vh 0;
-                                position: absolute;
-                            }
-                            #react_native.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #react_native_description {
-                                opacity: 0;
-                            }
-                            #react_native_description.show {
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
-                            }
-                            #figma {
-                                transition: .7s all ease-in;
-                                width: 13.5vw;
-                                height: 13vw;
-                                margin: 1vh 0 1vh 0;
-                                position: absolute;
-                            }
-                            #figma.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #figma_description {
-                                opacity: 0;
-                            }
-                            #figma_description.show {
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                transition: .7s all ease-in;
-                                opacity: 1;
-                            }
-                            #javascript {
-                                transition: .7s all ease-in;
-                                width: 14vw;
-                                height: 14vw;
-                                margin: .8vh 0 1vh 0;
-                                position: absolute;
-                            }
-                            #javascript.dissapear {
-                                transition: .7s all ease-out;
-                                opacity: 0;
-                            }
-                            #javascript_description {
-                                opacity: 0;
-                            }
-                            #javascript_description.show {
-                                transition: .7s all ease-in;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                opacity: 1;
-                            }
-                            #python {
-                                transition: .7s all ease-in;
-                                width: 11vw;
-                                height: 11vw;
-                                margin: .8vh 0 1vh 0;
-                                position: absolute;
-                            }
-                            #python.dissapear {
-                                transition: .3s all ease-in;
-                                opacity: 0;
-                            }
-                            #python_description {
-                                opacity: 0;
-                            }
-                            #python_description.show {
-                                transition: .8s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                opacity: 1;
-                            }
-                            #expressjs {
-                                transition: .7s all ease-in;
-                                width: 11vw;
-                                height: 11vw;
-                                margin: 0 0 .4vh 0;
-                                position: absolute;
-                            }
-                            #expressjs.dissapear {
-                                transition: .3s all ease-in;
-                                opacity: 0;
-                            }
-                            #expressjs_description {
-                                opacity: 0;
-                            }
-                            #expressjs_description.show {
-                                transition: .8s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                opacity: 1;
-                            }
-                            #django {
-                                transition: .7s all ease-in;
-                                width: 11vw;
-                                height: 9vw;
-                                margin: 0 1vw 0 0;
-                                position: absolute;
-                            }
-                            #django.dissapear {
-                                transition: .3s all ease-in;
-                                opacity: 0;
-                            }
-                            #django_description {
-                                opacity: 0;
-                            }
-                            #django_description.show {
-                                transition: .8s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                margin-top: -.3vh;
-                                color: white;
-                                opacity: 1;
-                            }
-                            #aws {
-                                transition: .7s all ease-in;
-                                width: 13vw;
-                                height: 13vw;
-                                margin: .5vh 0 .4vh 0;
-                                position: absolute;
-                            }
-                            #aws.dissapear {
-                                transition: .3s all ease-in;
-                                opacity: 0;
-                            }
-                            #aws_description {
-                                opacity: 0;
-                            }
-                            #aws_description.show {
-                                transition: .8s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                opacity: 1;
-                            }
-                            #heroku {
-                                transition: .7s all ease-in;
-                                width: 12vw;
-                                height: 12vw;
-                                margin: 0 0 .4vh 0;
-                                position: absolute;
-                            }
-                            #heroku.dissapear {
-                                transition: .3s all ease-in;
-                                opacity: 0;
-                            }
-                            #heroku_description {
-                                opacity: 0;
-                            }
-                            #heroku_description.show {
-                                transition: .8s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
-                                opacity: 1;
-                            }
-                            // .description {
-                            //     transition: .7s all ease-in;
-                            //     font-family: 'Roboto', sans-serif;
-                            //     font-size: 4vw;
-                            //     color: white;
-                            //     opacity: 0;
+                        }
+                    }
+                }
+                // Experience Section
+                .section_five {
+                    background-color: $mainblue;
+                    height: 100vh;
+                    .section_five_top {
+                        display: flex;
+                        .experience_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            color: white;
+                            margin: 5vh 0 0 10vw;
+                        }
+                    }
+                    .section_five_bottom {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5vh;
+                        margin: 5vh 5vw 0 0;
+                        .experience_box {
+                            width: 80vw;
+                            height: 45vw;
+                            border-radius: 10px;
+                            border: none;
+                            // border: 3px solid $skillswhite;
+                            box-shadow: 3px 3px 5px $positioncolor;
+                            box-shadow: 4px 4px 5px $boxshadowcircles;
+                            box-shadow: 6px 6px 10px black;
+                            background-color: $portfolios;
+                            display: flex;
+                            // ALL OF THE VERTICLE LINES
+                            // .vl {
+                            //     border-left: 2px solid white;
+                            //     height: 15vh;
+                            //     margin: 3vh 0 0 7vw;
                             // }
+                            // #r1rcm_vl {
+                            //     margin-left: 9.9vw;
+                            // }
+                            // COURDEVELOPS
+                            .courdevelops_logo {
+                                margin: 4.5vh 0 0 7vw;
+                                #courdevelops {
+                                    width: 23vw;
+                                    height: 23vw;
+                                }
+                            }
+                            .courdevelops_description {
+                                // margin: 7.5vh 0 0 2.5vw;
+                                margin: 7.5vh 0 0 7vw;
+                                display: flex;
+                                flex-direction: column;
+                                // transition: 1s all ease-in;
+                                .main_description {
+                                    transition: .9s all ease-in;
+                                    position: absolute;
+                                    h1 {
+                                        color: white;
+                                        font-size: 5vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                    p {
+                                        color: $jobdescription;
+                                        font-size: 3.5vw;
+                                    }
+                                }
+                                .main_description.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                .detailed_description {
+                                    margin: -4vh 0 0 0;
+                                    text-align: left;
+                                    opacity: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 1vh;
+                                    transition: .1s all ease-in;
+                                    h1 {
+                                        color: $jobdescription;
+                                        font-size: 3.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        margin: 0 0 .5vh 0;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3.2vw;
+                                    }
+                                }
+                                .detailed_description.show {
+                                    transition: .9s all ease-in;
+                                    opacity: 1;
+                                }
+                            }
+                            // R1RCM
+                            .r1rcm_logo {
+                                margin: 7vh 0 0 9vw;
+                                #r1rcm {
+                                    width: 19vw;
+                                    height: 14vw;
+                                }
+                            }
+                            .r1rcm_description {
+                                // margin: 7.5vh 0 0 2.5vw;
+                                margin: 8vh 0 0 4vw;
+                                .main_description_r1rcm {
+                                    transition: .9s all ease-in;
+                                    border: none;
+                                    background-color: $portfolios;
+                                    h1 {
+                                        color: white;
+                                        font-size: 5vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                    p {
+                                        color: $jobdescription;
+                                        font-size: 1em;
+                                        font-size: 3.5vw;
+                                    }
+                                }
+                                .main_description_r1rcm.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                .detailed_description_r1rcm {
+                                    margin: -9vh 0 0 5vw;
+                                    text-align: left;
+                                    opacity: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 1vh;
+                                    transition: .1s all ease-in;
+                                    h1 {
+                                        color: $jobdescription;
+                                        font-size: 3.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        margin: 0 0 .5vh 0;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3.2vw;
+                                    }
+                                }
+                                .detailed_description_r1rcm.show {
+                                    transition: .9s all ease-in;
+                                    opacity: 1;
+                                }
+                            }
+                            // SLEA
+                            .slea_logo {
+                                margin: 5vh 0 0 8vw;
+                                #slea {
+                                    width: 20vw;
+                                    height: 21vw;
+                                }
+                            }
+                            .slea_description {
+                                // margin: 7.5vh 0 0 2.5vw;
+                                margin: 8vh 0 0 7.5vw;
+                                .main_description_slea {
+                                        transition: .9s all ease-in;
+                                        border: none;
+                                        background-color: $portfolios;
+                                    h1 {
+                                        color: white;
+                                        font-size: 5vw;
+                                        font-family: 'Inter', sans-serif;
+                                    }
+                                    p {
+                                        color: $jobdescription;
+                                        font-size: 3.5vw;
+                                    }
+                                }
+                                .main_description_slea.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                .detailed_description_slea {
+                                    margin: -9vh 0 0 2vw;
+                                    text-align: left;
+                                    opacity: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 1vh;
+                                    transition: .1s all ease-in;
+                                    h1 {
+                                        color: $jobdescription;
+                                        font-size: 3.5vw;
+                                        font-family: 'Inter', sans-serif;
+                                        margin: 0 0 .5vh 0;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-size: 3.2vw;
+                                    }
+                                }
+                                .detailed_description_slea.show {
+                                    transition: .9s all ease-in;
+                                    opacity: 1;
+                                }
+                            }
                         }
                     }
-                    // Let's style the SKILL TITLES
-                    .responsive_title {
-                        font-family: 'Julius Sans One', sans-serif;
-                        font-size: 1.3em;
-                        color: white;
-                        margin: 2vh 0 0 0;
-                    }
-                    .user_interface_title {
-                        font-family: 'Julius Sans One', sans-serif;
-                        font-size: 1.3em;
-                        color: white;
-                        margin: 2vh 0 0 0;
-                    }
-                    .scripting_title {
-                        font-family: 'Julius Sans One', sans-serif;
-                        font-size: 1.3em;
-                        color: white;
-                        margin: 2vh 0 0 0;
-                    }
-                    .backend_title {
-                        font-family: 'Julius Sans One', sans-serif;
-                        font-size: 1.3em;
-                        color: white;
-                        margin: 2vh 0 0 0;
-                    }
-                    // Let's size the UNDERLINES
-                    .skills_underline {
-                        height: .8vh;
-                        border: none;
-                        border-radius: 5px;
-                        box-shadow: 3px 3px 5px $boxshadowcircles;
-                        background-color: $mainblue;
-                    }
-                    // RESPONSIVE DESIGN SECTION
-                    .responsive_design_div {
+                }
+                // Blog Section
+                .section_six {
+                    background-color: $skillsteal;
+                    height: 100vh;
+                    .section_six_top {
                         display: flex;
-                        flex-direction: column;
-                        .responsive_design_circles {
-                            display: flex;
-                            gap: 1vw;
+                        .blog_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            color: white;
+                            margin: 5vh 0 0 10vw;
                         }
                     }
-                    // USER INTERFACE SECTION
-                    .user_interface_div {
-                        display: flex;
-                        flex-direction: column;
-                        .user_interface_circles {
-                            display: flex;
-                            gap: 1vw;
-                        }
-                    }
-                    // SCRIPTING SECTION
-                    .scripting_div {
-                        display: flex;
-                        flex-direction: column;
-                        .scripting_circles {
-                            display: flex;
-                            gap: 1vw;
-                        }
-                    }
-                    // BACKEND SECTION
-                    .backend_div {
-                        display: flex;
-                        flex-direction: column;
-                        .backend_circles {
-                            display: flex;
-                            gap: 1vw;
-                        }
-                    }
-                    // size the BACKEND CIRCLES
-                    .skill_circle_backend {
+                    .section_six_bottom {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        .skill_back_backend {
-                            width: 18.5vw;
-                            height: 18.5vw;
-                            border: 2px solid $mainblue;
-                            background-color: $skillsteal;
-                            // background-color: yellow;
-                            border-radius: 50%;
-                            // position: relative;
+                        gap: 1vh;
+                        margin: 3vh 0 0 0;
+                        // Blog 1 Background
+                    .blog1content {
+                        transition: all .5s ease-in;
+                        position: fixed;
+                        top: 0;
+                        left: 100%;
+                        background-color: $skillsteal;
+                        height: 100vh;
+                        width: 100%;
+                        margin: 0vh 0 0 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 100;
+                        .blog1outline {
+                            border: 3px solid $mainblue;
+                            height: 75vh;
+                            width: 85%;
+                            margin: 0 0 -12vh 0;
+                            z-index: 98;
+                            .top_blog_circle_back {
+                                margin: -14vh 0 0 15vw;
+                                border: 3px solid $mainblue;
+                                background-color: $skillsteal;
+                                border-radius: 50%;
+                                width: 55vw;
+                                height: 55vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                z-index: 100;
+                                .top_blog_circle_front {
+                                    width: 50vw;
+                                    height: 50vw;
+                                    background-color: $mainblue;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    h2 {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        text-align: center;
+                                    }
+                                    p {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        padding: 1vh 0 0 0;
+                                    }
+                                }
+                            }
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            //////////////////////////////////
+                            // Blog 1 Content
+                            .blog_one_content_outline {
+                                // border: 1px dotted white;
+                                height: 60%;
+                                width: 80%;
+                                margin: 3vh 0 0 8vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                overflow: hidden;
+                                overflow-y: scroll;
+                                .blog_one_content {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 3.5vw;
+                                }
+                            }
+                            // Bottom Blog 1 Circle
+                            .bottom_blog_circle_back {
+                                width: 55vw;
+                                height: 27.3vw;
+                                border: 3px solid $mainblue;
+                                border-bottom-color: $skillsteal;
+                                border-radius: 150px 150px 0 0;
+                                background-color: $skillsteal;
+                                margin: 2vh 0 0 14.5vw;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                z-index: 100;
+                                .front_blog_circle_front {
+                                    width: 50vw;
+                                    height: 25.7vw;
+                                    background-color: $mainblue;
+                                    border-radius: 125px 125px 0 0;
+                                    z-index: 98;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: .9vh 0 0 0;
+                                    .blog_socials {
+                                        margin: 2.5vh 0 0 0;
+                                        #twitter {
+                                            width: 12vw;
+                                            height: 12vw;
+                                        }
+                                        #linkedin {
+                                            width: 12vw;
+                                            height: 12vw;
+                                        }
+                                        #share {
+                                            width: 11.5vw;
+                                            height: 11.5vw;
+                                        }
+                                    }
+                                }
+                            }
                         }
-                        .skill_front_backend {
-                            width: 15.5vw;
-                            height: 15.5vw;
-                            border: 1px solid $mainblue;
-                            background-color: $mainblue;
-                            border-radius: 50%;
-                            position: absolute;
+                    }
+                    .blog1content.slide_in {
+                        left: 0;
+                    }
+                    .blog_back_arrow {
+                        background: none;
+                        border: none;
+                        margin: 0 0 0 35vw;
+                        #blog_back_arrow {
+                            width: 11vw;
+                            height: 11vw;
+                        }
+                    }
+                    ////////////////////////
+                    ////////////////////////
+                    ////////////////////////
+                    ////////////////////////
+                    ////////////////////////
+                    ////////////////////////
+                    ////////////////////////
+                    /// 
+
+                        // BLOG CIRCLES TO BE CLICKED
+                        // Blog 1 Border
+                        .blog_circle {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            p {
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-size: .7em;
+                            // margin: -1vh 0 -1vh 0;
+                            margin: 1vh 0 1vh 0;
+                            .blog_circle_back {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 52vw;
+                                height: 52vw;
+                                border: 3px solid $mainblue;
+                                background-color: $skillsteal;
+                                // background-color: yellow;
+                                border-radius: 50%;
+                                // box-shadow: 3px 3px 2px $boxshadowcircles;
+                                box-shadow: 2px 2px $boxshadowcircles;
+                            }
+                            .blog_circle_front {
+                                width: 49vw;
+                                height: 49vw;
+                                border: 1px solid $mainblue;
+                                background-color: $mainblue;
+                                border-radius: 50%;
+                                position: absolute;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                h1 {
+                                    color: white;
+                                    font-size: 5.5vw;
+                                }
+                            }
+                        }
+                    }
+                }
+                // Contact Section
+                .section_seven {
+                    background-color: $mainblue;
+                    height: 97vh;
+                    .section_seven_top {
+                        display: flex;
+                        .contact_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            color: white;
+                            margin: 5vh 0 0 10vw;
+                        }
+                    }
+                    .section_seven_bottom {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2vh;
+                        margin: 5vh 5vw 0 0;
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 3vh;
+                            .input_div {
+                                display: flex;
+                                flex-direction: column;
+                                label {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 5vw;
+                                    color: white;
+                                }
+                                input {
+                                    background-color: $portfolios;
+                                    border: none;
+                                    border-radius: 5px;
+                                    width: 73vw;
+                                    height: 10vw;
+                                }
+                                textarea {
+                                    background-color: $portfolios;
+                                    height: 30vh;
+                                    width: 73vw;
+                                    border: none;
+                                    border-radius: 5px;
+                                    resize: none;
+                                }
+                            }
+                            .submit_button {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                #submitemail {
+                                    background-color: $portfolios;
+                                    border: none;
+                                    box-shadow: 3px 3px 2px $boxshadowcircles;
+                                    border-radius: 5px;
+                                    width: 73vw;
+                                    height: 10vw;
+                                    p {
+                                        color: white;
+                                        font-size: 1.5em;
+                                    }
+                                }
+                            }
+                        }
+                        // FOOTER
+                        .poweredby {
+                            small {
+                                .tabletsocials {
+                                    margin: 1vh 0 0 0vw;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 3vw;
+                                    #github {
+                                        width: 14vw;
+                                        height: 14vw;
+                                    }
+                                    #linkedin {
+                                        width: 12vw;
+                                        height: 12vw;
+                                    }
+                                    #twitter {
+                                        width: 15vw;
+                                        height: 15vw;
+                                    }
+                                    #instagram {
+                                        width: 12vw;
+                                        height: 12vw;
+                                    }
+                                }
+                            }
+                            .copyrights {
+                                display: flex;
+                                margin: 3vh 0 0 0;
+                                p {
+                                    color: $portfolios;
+                                    font-size: 1.2em;
+                                    // font-weight: bold;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                .courdev {
+                                    color: $firstblue;
+                                    font-family: 'Inter', sans-serif;
+                                }
                             }
                         }
                     }
