@@ -229,6 +229,843 @@
     align-items: center;
     font-family: "Inter", sans-serif;
   }
+  * body .container .section_three {
+    background-color: #080E2F;
+    height: 100vh;
+  }
+  * body .container .section_three .section_three_top .about_title {
+    font-family: "Inter", sans-serif;
+    font-size: 10vw;
+    color: white;
+    margin: 5vh 0 0 10vw;
+  }
+  * body .container .section_three .section_three_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7vh 5vw 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    height: 100vh;
+    transition: all 0.4s ease-out;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription {
+    border: 2px solid #36395D;
+    background-color: #36395D;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 85%;
+    height: 84vh;
+    transition: ease-in 0.8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_logo #skill_project_img {
+    margin: 4vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_description p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 6vh 0 0 0;
+    font-size: 3.5vw;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 7vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies p {
+    font-size: 3.5vw;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio {
+    display: flex;
+    gap: 1vh;
+    margin: 3vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .react_app1 {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_1 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 #express_tech_circle {
+    width: 8vw;
+    height: 8vw;
+    margin-top: 0.5vh;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+    margin-top: 0.5vh;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_3 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list {
+    margin: 0 10vw 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul {
+    text-align: center;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul #accomp_header {
+    font-weight: bold;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul li {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 3.5vw;
+    list-style: none;
+    padding: 1vh 1vh;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links {
+    display: flex;
+    gap: 4vw;
+    margin: 6vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: #d9e2e2;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link #github_app_link {
+    width: 10vw;
+    height: 10vw;
+    margin: 0 0 0 0.049vw;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .link_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: #d9e2e2;
+  }
+  * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .link_link #link_app_link {
+    width: 10vw;
+    height: 10vw;
+    margin: -0.3vh 0.5vw 0 0;
+  }
+  * body .container .section_three .section_three_bottom #app1content.slide_in {
+    transition: all 0.6s ease-in;
+    left: 0;
+  }
+  * body .container .section_three .section_three_bottom .app1_back_arrow {
+    background: none;
+    border: none;
+    margin: 3vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app1_back_arrow #back_arrow {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    height: 100vh;
+    transition: all 0.4s ease-out;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description {
+    border: 2px solid #36395D;
+    background-color: #36395D;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 85%;
+    height: 84vh;
+    transition: ease-in 0.8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_logo #create_collab {
+    margin: 4vh 0 0 8.5vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_description p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 6vh 0 0 0;
+    font-size: 3.5vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 7vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies p {
+    font-size: 3.5vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio {
+    display: flex;
+    gap: 1vh;
+    margin: 3vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .react_app1 {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_1 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 #express_tech_circle {
+    width: 8vw;
+    height: 8vw;
+    margin-top: 0.5vh;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+    margin-top: 0.5vh;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #05607D;
+    background-color: #00567F;
+    border-radius: 50%;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_3 .app_circle_descriptions {
+    font-family: "Inter", sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #B7BCD6;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list {
+    margin: 0 10vw 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul {
+    text-align: center;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul #accomp_header {
+    font-weight: bold;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul li {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 3.5vw;
+    list-style: none;
+    padding: 1vh 1vh;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_links {
+    display: flex;
+    gap: 4vw;
+    margin: 6vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .github_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: #d9e2e2;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .github_link #github_app_link {
+    width: 10vw;
+    height: 10vw;
+    margin: 0 0 0 0.049vw;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .link_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: #d9e2e2;
+  }
+  * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .link_link #link_app_link {
+    width: 10vw;
+    height: 10vw;
+    margin: -0.3vh 0.5vw 0 0;
+  }
+  * body .container .section_three .section_three_bottom #app2content.slide_in {
+    transition: all 0.6s ease-in;
+    left: 0;
+  }
+  * body .container .section_three .section_three_bottom .app2_back_arrow {
+    background: none;
+    border: none;
+    margin: 3vh 0 0 0;
+  }
+  * body .container .section_three .section_three_bottom .app2_back_arrow #back_arrow {
+    width: 7vw;
+    height: 7vw;
+  }
+  * body .container .section_three .section_three_bottom .app3content {
+    border: 2px solid #36395D;
+    background-color: #36395D;
+    border-radius: 5px;
+    top: 0;
+    left: 100%;
+    width: 105%;
+    height: 90vh;
+    margin: -13vh 0 0 0vw;
+    transition: ease-in 0.8s;
+    z-index: 100;
+    position: fixed;
+  }
+  * body .container .section_three .section_three_bottom .app3content p {
+    color: white;
+    text-align: center;
+  }
+  * body .container .section_three .section_three_bottom .app4content {
+    border: 2px solid #36395D;
+    background-color: #36395D;
+    border-radius: 5px;
+    top: 0;
+    left: 100%;
+    width: 105%;
+    height: 90vh;
+    margin: -13vh 0 0 0vw;
+    transition: ease-in 0.8s;
+    z-index: 100;
+    position: fixed;
+  }
+  * body .container .section_three .section_three_bottom .app4content p {
+    color: white;
+    text-align: center;
+  }
+  * body .container .section_three .section_three_bottom .portfolio_squares {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .section_three .section_three_bottom .portfolio_squares .portfolio_square {
+    width: 80vw;
+    height: 30vw;
+    border: 1px solid #36395D;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.521);
+    box-shadow: 6px 6px 10px black;
+    border-radius: 10px;
+    background-color: #36395D;
+  }
+  * body .container .section_three .section_three_bottom .portfolio_squares .portfolio_square .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  * body .container .section_three .section_three_bottom .portfolio_squares .portfolio_square .app #create_collab {
+    margin-left: 9vw;
+  }
+  * body .container .section_four {
+    background-color: #146166;
+    height: 100vh;
+  }
+  * body .container .section_four_top {
+    display: flex;
+  }
+  * body .container .section_four_top .skills_title {
+    font-family: "Inter", sans-serif;
+    font-size: 10vw;
+    color: white;
+    margin: 5vh 0 0 10vw;
+  }
+  * body .container .section_four_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 6vw 0 0;
+    gap: 3vh;
+  }
+  * body .container .section_four_bottom .skill_circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0 1vh 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_back {
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid #080E2F;
+    background-color: #146166;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.521);
+    border-radius: 50%;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front {
+    width: 23vw;
+    height: 23vw;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front .shield {
+    width: 13vw;
+    height: 12vw;
+    margin: 1vh 0 1vh 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #html {
+    transition: 0.7s all ease-in;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #html.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #html_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #html_description.show {
+    transition: 0.5s all ease-in;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #css {
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #css.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #css_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #css_description.show {
+    transition: 0.5s all ease-in;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #sass {
+    transition: 0.7s all ease-in;
+    width: 12vw;
+    height: 12vw;
+    margin: 0vh 0 0vh 0.8vw;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #sass.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #sass_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #sass_description.show {
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react {
+    transition: 0.7s all ease-in;
+    width: 12vw;
+    height: 12vw;
+    margin: 1vh 0 1vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_description.show {
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_native {
+    transition: 0.7s all ease-in;
+    width: 15vw;
+    height: 14vw;
+    margin: 1vh 0 1vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_native.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_native_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #react_native_description.show {
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #figma {
+    transition: 0.7s all ease-in;
+    width: 13.5vw;
+    height: 13vw;
+    margin: 1vh 0 1vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #figma.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #figma_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #figma_description.show {
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    transition: 0.7s all ease-in;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #javascript {
+    transition: 0.7s all ease-in;
+    width: 14vw;
+    height: 14vw;
+    margin: 0.8vh 0 1vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #javascript.dissapear {
+    transition: 0.7s all ease-out;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #javascript_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #javascript_description.show {
+    transition: 0.7s all ease-in;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #python {
+    transition: 0.7s all ease-in;
+    width: 11vw;
+    height: 11vw;
+    margin: 0.8vh 0 1vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #python.dissapear {
+    transition: 0.3s all ease-in;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #python_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #python_description.show {
+    transition: 0.8s all ease-out;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #expressjs {
+    transition: 0.7s all ease-in;
+    width: 11vw;
+    height: 11vw;
+    margin: 0 0 0.4vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #expressjs.dissapear {
+    transition: 0.3s all ease-in;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #expressjs_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #expressjs_description.show {
+    transition: 0.8s all ease-out;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #django {
+    transition: 0.7s all ease-in;
+    width: 11vw;
+    height: 9vw;
+    margin: 0 1vw 0 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #django.dissapear {
+    transition: 0.3s all ease-in;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #django_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #django_description.show {
+    transition: 0.8s all ease-out;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    margin-top: -0.3vh;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #aws {
+    transition: 0.7s all ease-in;
+    width: 13vw;
+    height: 13vw;
+    margin: 0.5vh 0 0.4vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #aws.dissapear {
+    transition: 0.3s all ease-in;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #aws_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #aws_description.show {
+    transition: 0.8s all ease-out;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #heroku {
+    transition: 0.7s all ease-in;
+    width: 12vw;
+    height: 12vw;
+    margin: 0 0 0.4vh 0;
+    position: absolute;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #heroku.dissapear {
+    transition: 0.3s all ease-in;
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #heroku_description {
+    opacity: 0;
+  }
+  * body .container .section_four_bottom .skill_circle .skill_front #heroku_description.show {
+    transition: 0.8s all ease-out;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
+    color: white;
+    opacity: 1;
+  }
+  * body .container .section_four_bottom .responsive_title {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin: 2vh 0 0 0;
+  }
+  * body .container .section_four_bottom .user_interface_title {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin: 2vh 0 0 0;
+  }
+  * body .container .section_four_bottom .scripting_title {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin: 2vh 0 0 0;
+  }
+  * body .container .section_four_bottom .backend_title {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.3em;
+    color: white;
+    margin: 2vh 0 0 0;
+  }
+  * body .container .section_four_bottom .skills_underline {
+    height: 0.8vh;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+    background-color: #080E2F;
+  }
+  * body .container .section_four_bottom .responsive_design_div {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .section_four_bottom .responsive_design_div .responsive_design_circles {
+    display: flex;
+    gap: 1vw;
+  }
+  * body .container .section_four_bottom .user_interface_div {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .section_four_bottom .user_interface_div .user_interface_circles {
+    display: flex;
+    gap: 1vw;
+  }
+  * body .container .section_four_bottom .scripting_div {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .section_four_bottom .scripting_div .scripting_circles {
+    display: flex;
+    gap: 1vw;
+  }
+  * body .container .section_four_bottom .backend_div {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .container .section_four_bottom .backend_div .backend_circles {
+    display: flex;
+    gap: 1vw;
+  }
+  * body .container .section_four_bottom .skill_circle_backend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .section_four_bottom .skill_circle_backend .skill_back_backend {
+    width: 18.5vw;
+    height: 18.5vw;
+    border: 2px solid #080E2F;
+    background-color: #146166;
+    border-radius: 50%;
+  }
+  * body .container .section_four_bottom .skill_circle_backend .skill_front_backend {
+    width: 15.5vw;
+    height: 15.5vw;
+    border: 1px solid #080E2F;
+    background-color: #080E2F;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .section_four_bottom .skill_circle_backend .skill_front_backend p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7em;
+  }
 }
 @media screen and (min-width: 451px) {
   * {
