@@ -181,7 +181,7 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 3vh 5vw 0 0;
+                        margin: 0vh 5vw -5vh 0;
                         // margin: 0vh 0 0 0;
                         #home_headshot {
                             width: 45vw;
@@ -271,7 +271,7 @@ $darkgrey: darkgrey;
                 .section_two {
                     background-color: $skillsteal;
                     // background-color: $otherblue;
-                    height: 100vh;
+                    height: 110vh;
                     .section_two_top {
                         display: flex;
                         .about_title {
@@ -900,6 +900,7 @@ $darkgrey: darkgrey;
                                 }
                                 // css
                                 #css {
+                                    transition: .7s all ease-in;
                                     position: absolute;
                                 }
                                 #css.dissapear {
@@ -1008,6 +1009,20 @@ $darkgrey: darkgrey;
                                     transition: .7s all ease-in;
                                     margin: 0vh 0 0 0;
                                     position: absolute;
+                                }
+                                #firebase.dissapear {
+                                    transition: .7s all ease-out;
+                                    opacity: 0;
+                                }
+                                // #firebase_description {
+                                //     opacity: 0;
+                                // }
+                                #firebase_description.show {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-size: 4vw;
+                                    color: white;
+                                    transition: .7s all ease-in;
+                                    opacity: 1;
                                 }
                                 #javascript {
                                     transition: .7s all ease-in;
