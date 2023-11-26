@@ -88,13 +88,12 @@ $darkgrey: darkgrey;
                             align-items: center;
                             // width: 24w;
                             // height: 24vw;
-                            margin: 4vh 0 0 10vw;
+                            margin: 3vh 0 0 10vw;
                             transition: 3s all ease-in-out;
                             border: 2px solid white;
                             border-radius: 50%;
-                            padding: 5vw;
+                            padding: 4vw;
                             background-color: white;
-                            // opacity: 0;
                             a {
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
@@ -116,7 +115,7 @@ $darkgrey: darkgrey;
                             align-items: center;
                             gap: .5vh;
                             // margin: 4.5vh 0 0 -60vw;
-                            margin: 5vh 0 0 -55vw;
+                            margin: 3vh 0 0 -50vw;
                             opacity: 0;
                             transition: 1s all ease-in-out;
                             #name {
@@ -149,30 +148,13 @@ $darkgrey: darkgrey;
                         #top_hamburger {
                             width: 10vw;
                             height: 10vw;
-                            margin: 6.5vh 15vw 0 0;
+                            margin: 5vh 15vw 0 0;
                             transition: 1s all ease-in-out;
                         }
                         #top_hamburger.dissapear {
                             opacity: 0;
                             transition: 1s all ease-in-out;
                         }
-                        // // the Floating Nav at top of page dissapear
-                        // .the_nav.dissapear {
-                        //     opacity: 0;
-                        //     transition: .5s all ease-in-out;
-                        // }
-                        // .the_nav.scroll_up {
-                        //     opacity: 1;
-                        // }
-                        // Try add another class for top that
-                            // sets opacity to zero and moves the
-                                // nav bar to the side or up or fades
-                                    // which ever looks best
-                        // .the_nav.top {
-                        //     // make navbar dissolve slow
-                        //     opacity: 0;
-                        //     transition: 1s all ease-out;
-                        // }
                     }
                 }
                 // Make it dissapear
@@ -193,20 +175,20 @@ $darkgrey: darkgrey;
                     justify-content: center;
                     align-items: center;
                     background-color: $darkblue;
-                    height: 90vh;
+                    height: 95vh;
                     .section_one_headshot {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 0vh 5vw 0 0;
+                        margin: 3vh 5vw 0 0;
                         // margin: 0vh 0 0 0;
                         #home_headshot {
                             width: 45vw;
                             height: 45vw;
                             border-radius: 50%; 
                             position: absolute; 
-                            margin: -60vw 0 0 0; 
+                            margin: -85vw 0 0 0; 
                         }
                         .back_circle {
                             width: 50vw;
@@ -222,7 +204,7 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: -5vh 0 0 0;
+                        margin: -5vh 5vw 0 0;
                         // height: 100vh;
                         .home_name {
                             margin: 0 0 1.5vh 0;
@@ -307,7 +289,7 @@ $darkgrey: darkgrey;
                         .about_content {
                             // display: flex;
                             // flex-direction: column;
-                            width: 82%;
+                            width: 80%;
                             // text-align: center;
                             color: white;
                             font-family: 'Roboto', sans-serif;
@@ -316,6 +298,10 @@ $darkgrey: darkgrey;
                                 display: flex;
                                 justify-content: center;
                                 margin: 4vh 0 4vh 0;
+                                #about_page_logo {
+                                    width: 30vw;
+                                    height: 30vw;
+                                }
                             }
                         }
                         // Download Resume Button
@@ -326,8 +312,8 @@ $darkgrey: darkgrey;
                                 background-color: $resumebutton;
                                 box-shadow: 1px 1px 2px $boxshadowcircles;
                                 box-shadow: 5px 5px 4px #0e3f42;
-                                margin: 4vh 0 0 0;
-                                width: 70vw;
+                                margin: 4vh 0 0 -3vw;
+                                width: 77vw;
                                 height: 10vw;
                                 color: white;
                                 text-decoration: none;
@@ -809,6 +795,7 @@ $darkgrey: darkgrey;
                             gap: 5vh;
                             justify-content: center;
                             align-items: center;
+                            margin: 0 0 0 3vw;
                             // Portfolio App Button
                             .portfolio_square {
                                 width: 80vw;
@@ -853,8 +840,8 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 4vh 6vw 0 0;
-                        gap: 3vh;
+                        margin: 4vh 3vw 0 0;
+                        gap: 4vh;
                         // Let's size the FRONTEND CIRCLES
                         .skill_circle {
                             display: flex;
@@ -863,8 +850,8 @@ $darkgrey: darkgrey;
                             align-items: center;
                             margin: 2vh 0 1vh 0;
                             .skill_back {
-                                width: 25vw;
-                                height: 25vw;
+                                width: 23vw;
+                                height: 23vw;
                                 border: 3px solid $mainblue;
                                 background-color: $skillsteal;
                                 box-shadow: 2px 2px $boxshadowcircles;
@@ -874,8 +861,8 @@ $darkgrey: darkgrey;
                                 // position: relative;
                             }
                             .skill_front {
-                                width: 23vw;
-                                height: 23vw;
+                                width: 21vw;
+                                height: 21vw;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
@@ -1017,10 +1004,15 @@ $darkgrey: darkgrey;
                                     transition: .7s all ease-in;
                                     opacity: 1;
                                 }
+                                #firebase {
+                                    transition: .7s all ease-in;
+                                    margin: 0vh 0 0 0;
+                                    position: absolute;
+                                }
                                 #javascript {
                                     transition: .7s all ease-in;
-                                    width: 14vw;
-                                    height: 14vw;
+                                    width: 13vw;
+                                    height: 13vw;
                                     margin: .8vh 0 1vh 0;
                                     position: absolute;
                                 }
@@ -1061,8 +1053,8 @@ $darkgrey: darkgrey;
                                 }
                                 #expressjs {
                                     transition: .7s all ease-in;
-                                    width: 11vw;
-                                    height: 11vw;
+                                    width: 10vw;
+                                    height: 10vw;
                                     margin: 0 0 .4vh 0;
                                     position: absolute;
                                 }
@@ -1192,7 +1184,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             .responsive_design_circles {
                                 display: flex;
-                                gap: 1vw;
+                                gap: 3vw;
                             }
                         }
                         // USER INTERFACE SECTION
@@ -1201,7 +1193,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             .user_interface_circles {
                                 display: flex;
-                                gap: 1vw;
+                                gap: 3vw;
                             }
                         }
                         // SCRIPTING SECTION
@@ -1210,7 +1202,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             .scripting_circles {
                                 display: flex;
-                                gap: 1vw;
+                                gap: 3vw;
                             }
                         }
                         // BACKEND SECTION
@@ -1219,7 +1211,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             .backend_circles {
                                 display: flex;
-                                gap: 1vw;
+                                gap: 3vw;
                             }
                         }
                         // size the BACKEND CIRCLES
@@ -1635,8 +1627,8 @@ $darkgrey: darkgrey;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 52vw;
-                                height: 52vw;
+                                width: 50vw;
+                                height: 50vw;
                                 border: 3px solid $mainblue;
                                 background-color: $skillsteal;
                                 // background-color: yellow;
@@ -1645,8 +1637,8 @@ $darkgrey: darkgrey;
                                 box-shadow: 2px 2px $boxshadowcircles;
                             }
                             .blog_circle_front {
-                                width: 49vw;
-                                height: 49vw;
+                                width: 47vw;
+                                height: 47vw;
                                 border: 1px solid $mainblue;
                                 background-color: $mainblue;
                                 border-radius: 50%;
@@ -1666,7 +1658,7 @@ $darkgrey: darkgrey;
                 // Contact Section
                 .section_seven {
                     background-color: $mainblue;
-                    height: 97vh;
+                    height: 100vh;
                     .section_seven_top {
                         display: flex;
                         .contact_title {
