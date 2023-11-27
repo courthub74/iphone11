@@ -90,16 +90,17 @@ $darkgrey: darkgrey;
                             // height: 24vw;
                             margin: 6vh 0 0 14vw;
                             transition: 3s all ease-in-out;
-                            border: 2px solid white;
+                            border: 2px solid $portfolios;
                             border-radius: 5px;
                             padding: 3vw;
                             background-color: white;
+                            background-color: $portfolios;
                             a {
                                 font-family: 'Inter', sans-serif;
                                 // font-weight: bold;
                                 text-align: center;
                                 color: white;
-                                color: $mainblue;
+                                // color: $mainblue;
                                 font-size: 3vw;
                                 text-decoration: none;
                             }
@@ -244,27 +245,25 @@ $darkgrey: darkgrey;
                                 text-align: center;
                             }
                         }
-                        .learn_more {
-                            width: 70vw;
-                            height: 10vw;
-                            margin: 12vh 0 -15vh 0;
-                            border-radius: 5px;
-                            background-color: $portfolios;
-                            background-color: white;
-                            // background-color: $positioncolor;
-                            border: none;
-                            box-shadow: 5px 5px 4px $boxshadowcircles;
-                            a {
-                                color: $languagewhite;
-                                
-                                color: white;
-                                color: $mainblue;
-                                // color: $darkblue;
-                                text-decoration: none;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                            }
-                        }
+                        // .learn_more {
+                        //     width: 70vw;
+                        //     height: 10vw;
+                        //     margin: 12vh 0 -15vh 0;
+                        //     border-radius: 5px;
+                        //     background-color: $portfolios;
+                        //     // background-color: white;
+                        //     // background-color: $positioncolor;
+                        //     border: none;
+                        //     box-shadow: 5px 5px 4px $boxshadowcircles;
+                        //     a {
+                        //         color: white;
+                        //         // color: $mainblue;
+                        //         // color: $darkblue;
+                        //         text-decoration: none;
+                        //         font-family: 'Roboto', sans-serif;
+                        //         font-size: 4vw;
+                        //     }
+                        // }
                     }
                 }
                 // About Section

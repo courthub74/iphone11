@@ -28,16 +28,16 @@
     align-items: center;
     margin: 6vh 0 0 14vw;
     transition: 3s all ease-in-out;
-    border: 2px solid white;
+    border: 2px solid #36395D;
     border-radius: 5px;
     padding: 3vw;
     background-color: white;
+    background-color: #36395D;
   }
   * body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
     font-family: "Inter", sans-serif;
     text-align: center;
     color: white;
-    color: #080E2F;
     font-size: 3vw;
     text-decoration: none;
   }
@@ -163,24 +163,6 @@
     font-family: "Roboto", sans-serif;
     font-size: 5vw;
     text-align: center;
-  }
-  * body .container .section_one .section_one_content .learn_more {
-    width: 70vw;
-    height: 10vw;
-    margin: 12vh 0 -15vh 0;
-    border-radius: 5px;
-    background-color: #36395D;
-    background-color: white;
-    border: none;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.521);
-  }
-  * body .container .section_one .section_one_content .learn_more a {
-    color: #d9e2e2;
-    color: white;
-    color: #080E2F;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 4vw;
   }
   * body .container .section_two {
     background-color: #146166;
