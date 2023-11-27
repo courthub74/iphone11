@@ -88,19 +88,19 @@ $darkgrey: darkgrey;
                             align-items: center;
                             // width: 24w;
                             // height: 24vw;
-                            margin: 4vh 0 0 11vw;
+                            margin: 6vh 0 0 14vw;
                             transition: 3s all ease-in-out;
                             border: 2px solid white;
-                            border-radius: 50%;
-                            padding: 4vw;
+                            border-radius: 5px;
+                            padding: 3vw;
                             background-color: white;
                             a {
                                 font-family: 'Inter', sans-serif;
-                                font-weight: bold;
+                                // font-weight: bold;
                                 text-align: center;
                                 color: white;
                                 color: $mainblue;
-                                font-size: 4vw;
+                                font-size: 3vw;
                                 text-decoration: none;
                             }
                         }
@@ -307,15 +307,17 @@ $darkgrey: darkgrey;
                         // Download Resume Button
                         .resume_button_div {
                             #dload_resume {
-                                border: 2px solid $resumebutton;
+                                // border: 2px solid $resumebutton;
                                 border-radius: 5px;
                                 background-color: $resumebutton;
-                                box-shadow: 1px 1px 2px $boxshadowcircles;
-                                box-shadow: 5px 5px 4px #0e3f42;
+                                background-color: white;
+                                // box-shadow: 1px 1px 2px $boxshadowcircles;
+                                // box-shadow: 5px 5px 4px #0e3f42;
                                 margin: 4vh 0 0 -3vw;
                                 width: 77vw;
                                 height: 10vw;
                                 color: white;
+                                color: $resumebutton;
                                 text-decoration: none;
                                 display: flex;
                                 justify-content: center;
@@ -1472,7 +1474,7 @@ $darkgrey: darkgrey;
                 // Blog Section
                 .section_six {
                     background-color: $skillsteal;
-                    height: 100vh;
+                    height: 110vh;
                     .section_six_top {
                         display: flex;
                         .blog_title {
@@ -1673,7 +1675,7 @@ $darkgrey: darkgrey;
                 // Contact Section
                 .section_seven {
                     background-color: $mainblue;
-                    height: 100vh;
+                    height: 110vh;
                     .section_seven_top {
                         display: flex;
                         .contact_title {

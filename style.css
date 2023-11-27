@@ -26,20 +26,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4vh 0 0 11vw;
+    margin: 6vh 0 0 14vw;
     transition: 3s all ease-in-out;
     border: 2px solid white;
-    border-radius: 50%;
-    padding: 4vw;
+    border-radius: 5px;
+    padding: 3vw;
     background-color: white;
   }
   * body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
     font-family: "Inter", sans-serif;
-    font-weight: bold;
     text-align: center;
     color: white;
     color: #080E2F;
-    font-size: 4vw;
+    font-size: 3vw;
     text-decoration: none;
   }
   * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
@@ -218,15 +217,14 @@
     height: 30vw;
   }
   * body .container .section_two .section_two_bottom .resume_button_div #dload_resume {
-    border: 2px solid #507E81;
     border-radius: 5px;
     background-color: #507E81;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
-    box-shadow: 5px 5px 4px #0e3f42;
+    background-color: white;
     margin: 4vh 0 0 -3vw;
     width: 77vw;
     height: 10vw;
     color: white;
+    color: #507E81;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -1277,7 +1275,7 @@
   }
   * body .container .section_six {
     background-color: #146166;
-    height: 100vh;
+    height: 110vh;
   }
   * body .container .section_six .section_six_top {
     display: flex;
@@ -1453,7 +1451,7 @@
   }
   * body .container .section_seven {
     background-color: #080E2F;
-    height: 100vh;
+    height: 110vh;
   }
   * body .container .section_seven .section_seven_top {
     display: flex;
