@@ -80,15 +80,27 @@
     opacity: 1;
     transition: 1s all ease-in-out;
   }
-  * body .container .the_top_nav .nav_top_contents #top_hamburger {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile #top_hamburger {
     width: 10vw;
     height: 10vw;
     margin: 6vh 15vw 0 0;
     transition: 1s all ease-in-out;
+    position: relative;
   }
-  * body .container .the_top_nav .nav_top_contents #top_hamburger.dissapear {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile #top_hamburger.dissapear {
     opacity: 0;
     transition: 1s all ease-in-out;
+  }
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile #hamburger_close {
+    position: absolute;
+    z-index: 100;
+    width: 15vw;
+    margin: 6vh 14vw 0 0;
   }
   * body .container .the_top_nav.dissapear {
     opacity: 0;
