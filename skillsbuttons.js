@@ -182,7 +182,7 @@ let firebase_skill = document.getElementById('firebase_skill');
 // FIREBASE LOGO
 let firebase_logo = document.getElementById('firebase');
 // FIREBASE DESCRIPTION
-let firebase_description = document.getElementById('firebase');
+let firebase_description = document.getElementById('firebase_description');
 // EVENT LISTENER FOR BUTTON
 firebase_skill.addEventListener('click', function () {
     // Test Print
@@ -195,7 +195,9 @@ firebase_skill.addEventListener('click', function () {
     function firebase_back_on () {
         firebase_logo.classList.remove('dissapear');
         firebase_description.classList.remove('show');
-    }
+    };
+    // call the function with a setTimeout for 3 seconds
+    setTimeout(firebase_back_on, 3000);
 });
 // EXPRESS JS
 
