@@ -219,12 +219,10 @@
   * body .container .section_two .section_two_bottom .resume_button_div #dload_resume {
     border-radius: 5px;
     background-color: #507E81;
-    background-color: white;
     margin: 4vh 0 0 -3vw;
     width: 77vw;
     height: 10vw;
     color: white;
-    color: #507E81;
     text-decoration: none;
     display: flex;
     justify-content: center;
