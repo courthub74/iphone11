@@ -86,9 +86,9 @@ $darkgrey: darkgrey;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            // width: 24w;
-                            // height: 24vw;
-                            margin: 6vh 0 0 14vw;
+                            width: 30vw;
+                            height: 11vw;
+                            margin: 6vh 0 0 15vw;
                             transition: 3s all ease-in-out;
                             border: 2px solid $portfolios;
                             border-radius: 5px;
@@ -101,7 +101,7 @@ $darkgrey: darkgrey;
                                 text-align: center;
                                 color: white;
                                 // color: $mainblue;
-                                font-size: 3vw;
+                                font-size: 4vw;
                                 text-decoration: none;
                             }
                         }
@@ -116,7 +116,7 @@ $darkgrey: darkgrey;
                             align-items: center;
                             gap: .5vh;
                             // margin: 4.5vh 0 0 -60vw;
-                            margin: 3vh 0 0 -50vw;
+                            margin: 4vh 0 0 -60vw;
                             opacity: 0;
                             transition: 1s all ease-in-out;
                             #name {
@@ -182,11 +182,11 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 0vh 5vw -5vh 0;
+                        margin: 6vh 3vw -5vh 0;
                         // margin: 0vh 0 0 0;
                         #home_headshot {
-                            width: 45vw;
-                            height: 45vw;
+                            width: 40vw;
+                            height: 40vw;
                             border-radius: 50%; 
                             position: absolute; 
                             margin: -85vw 0 0 0; 
@@ -213,14 +213,14 @@ $darkgrey: darkgrey;
                                 font-family: 'Inter', sans-serif;
                                 color: white;
                                 // color: $positioncolor;
-                                font-size: 7vw;
+                                font-size: 6vw;
                             }
                         }
                         .job_description {
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            width: 70vw;
+                            width: 65vw;
                             height: 11vw;
                             background-color: $portfolios;
                             background-color: white;
@@ -230,7 +230,7 @@ $darkgrey: darkgrey;
                                 color: $positioncolor;
                                 color: $mainblue;
                                 // color: white;
-                                font-size: 5vw;
+                                font-size: 4vw;
                             }
                         }
                         .my_mantra {
@@ -240,7 +240,7 @@ $darkgrey: darkgrey;
                                 color: white;
                                 // color: $positioncolor;
                                 font-family: 'Roboto', sans-serif;
-                                font-size: 5vw;
+                                font-size: 4vw;
                                 // font-weight: bold;
                                 text-align: center;
                             }
