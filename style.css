@@ -82,12 +82,18 @@
     transition: 1s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger {
-    position: relative;
-    margin: 4vh 12vw 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid wheat;
+    width: 25vw;
+    height: 20vw;
+    margin: 2vh 5vw 0 0;
     background-color: #080E2F;
     border: none;
   }
   * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger #top_hamburger {
+    position: relative;
     width: 11vw;
     height: 10vw;
     transition: 1s all ease-in-out;
@@ -96,11 +102,10 @@
     opacity: 0;
     transition: 1s all ease-in-out;
   }
-  * body .container .the_top_nav .nav_top_contents .hamburgermobile .xclose {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger #hamburger_close {
     position: absolute;
-    margin: 6vh 15vw 0 0;
-    background-color: #080E2F;
-    border: none;
+    width: 15vw;
+    height: 15vw;
   }
   * body .container .the_top_nav.dissapear {
     opacity: 0;

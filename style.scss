@@ -148,13 +148,23 @@ $darkgrey: darkgrey;
                             opacity: 1;
                             transition: 1s all ease-in-out;
                         }
+
+                        // Hamburger Menu
                         .hamburgermobile {
+                            // background-color: #00567F;
                             .burger {
-                                position: relative;
-                                margin: 4vh 12vw 0 0;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1px solid wheat;
+                                width: 25vw;
+                                height: 20vw;
+                                // margin: 5vh 0 0 0;
+                                margin: 2vh 5vw 0 0;
                                 background-color: $mainblue;
                                 border: none;
                                 #top_hamburger {
+                                    position: relative;
                                     width: 11vw;
                                     height: 10vw;
                                     transition: 1s all ease-in-out;
@@ -164,13 +174,27 @@ $darkgrey: darkgrey;
                                     opacity: 0;
                                     transition: 1s all ease-in-out;
                                 }
+                                #hamburger_close {
+                                    position: absolute;
+                                    width: 15vw;
+                                    height: 15vw;
+                                }
                             }
-                            .xclose {
-                                position: absolute;
-                                margin: 6vh 15vw 0 0;
-                                background-color: $mainblue;
-                                border: none;
-                            }
+                            // .xclose {
+                            //     position: absolute;
+                            //     margin: 6vh 15vw 0 0;
+                            //     background-color: $mainblue;
+                            //     border: none;
+                            //     #hamburger_close {
+                            //         opacity: 0;
+                            //         z-index: 100;
+                            //     }
+                            //     #hamburger_close.appear {
+                            //         transition: .4s all ease-in-out;
+                            //         opacity: 1;
+                            //         z-index: 100;
+                            //     }
+                            // }
                         }
                     }
                 }
