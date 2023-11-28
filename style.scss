@@ -149,21 +149,16 @@ $darkgrey: darkgrey;
                             transition: 1s all ease-in-out;
                         }
                         .hamburgermobile {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                            // background-color: orange;
                             .burger {
                                 position: relative;
-                                margin: 6vh 15vw 0 0;
+                                margin: 4vh 12vw 0 0;
                                 background-color: $mainblue;
-                                
-                                // Menu Burger
+                                border: none;
                                 #top_hamburger {
-                                    width: 10vw;
+                                    width: 11vw;
                                     height: 10vw;
-                                    
                                     transition: 1s all ease-in-out;
-                                    
                                 }
                                 // make Menu Burger dissapear (when clicked)
                                 #top_hamburger.dissapear {
@@ -173,20 +168,9 @@ $darkgrey: darkgrey;
                             }
                             .xclose {
                                 position: absolute;
-                                margin: 6vh 14vw 0 0;
+                                margin: 6vh 15vw 0 0;
                                 background-color: $mainblue;
-                                // X Menu Close
-                                #hamburger_close {
-                                    z-index: 100;
-                                    width: 15vw;
-                                    
-                                    opacity: 0;
-                                }
-                                // show the menu close (when pressed)
-                                #hamburger_close.is-shown {
-                                    transition: .3s;
-                                    opacity: 1;
-                                }
+                                border: none;
                             }
                         }
                     }
@@ -209,7 +193,7 @@ $darkgrey: darkgrey;
                     justify-content: center;
                     align-items: center;
                     background-color: $darkblue;
-                    height: 95vh;
+                    height: 90vh;
                     .section_one_headshot {
                         display: flex;
                         flex-direction: column;
