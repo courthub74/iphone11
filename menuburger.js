@@ -1,3 +1,6 @@
+// query the whole menu button
+let burger_menu_button = document.querySelector('.burger');
+
 // query the burger
 let top_hamburger = document.getElementById('top_hamburger');
 
@@ -10,11 +13,12 @@ let hamburger_close = document.getElementById('hamburger_close');
 
 
 // event listener on the hamburger
-top_hamburger.addEventListener('click', function () {
+burger_menu_button.addEventListener('click', function () {
+    // let num = 1 || if top hamburger.dissapear
     // test print
-    console.log("Hamburger Menu");
+    console.log("Hamburger Menu Button");
     // make burger dissapear
-    top_hamburger.classList.add('dissapear');
+    top_hamburger.classList.toggle('dissapear');
     // make x appear
-    hamburger_close.classList.add('appear');
+    hamburger_close.classList.toggle('appear');
 });

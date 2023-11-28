@@ -172,13 +172,20 @@ $darkgrey: darkgrey;
                                 // make Menu Burger dissapear (when clicked)
                                 #top_hamburger.dissapear {
                                     opacity: 0;
-                                    transition: 1s all ease-in-out;
+                                    transition: .5s all ease-in-out;
                                 }
                                 #hamburger_close {
                                     position: absolute;
                                     width: 15vw;
                                     height: 15vw;
+                                    opacity: 0;
                                 }
+                                #hamburger_close.appear {
+                                    transition: .5s all ease-in;
+                                    opacity: 1;
+                                    z-index: 100;
+                                }
+
                             }
                             // .xclose {
                             //     position: absolute;
