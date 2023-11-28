@@ -90,11 +90,13 @@ $darkgrey: darkgrey;
                             height: 11vw;
                             margin: 6vh 0 0 15vw;
                             transition: 3s all ease-in-out;
-                            border: 2px solid $portfolios;
+                            // border: 2px solid $portfolios;
+                            border: none;
                             border-radius: 5px;
                             padding: 3vw;
                             background-color: white;
                             background-color: $portfolios;
+                            background-color: $mainblue;
                             a {
                                 font-family: 'Inter', sans-serif;
                                 // font-weight: bold;
@@ -150,22 +152,41 @@ $darkgrey: darkgrey;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            #top_hamburger {
-                                width: 10vw;
-                                height: 10vw;
-                                margin: 6vh 15vw 0 0;
-                                transition: 1s all ease-in-out;
+                            .burger {
                                 position: relative;
+                                margin: 6vh 15vw 0 0;
+                                background-color: $mainblue;
+                                
+                                // Menu Burger
+                                #top_hamburger {
+                                    width: 10vw;
+                                    height: 10vw;
+                                    
+                                    transition: 1s all ease-in-out;
+                                    
+                                }
+                                // make Menu Burger dissapear (when clicked)
+                                #top_hamburger.dissapear {
+                                    opacity: 0;
+                                    transition: 1s all ease-in-out;
+                                }
                             }
-                            #top_hamburger.dissapear {
-                                opacity: 0;
-                                transition: 1s all ease-in-out;
-                            }
-                            #hamburger_close {
+                            .xclose {
                                 position: absolute;
-                                z-index: 100;
-                                width: 15vw;
                                 margin: 6vh 14vw 0 0;
+                                background-color: $mainblue;
+                                // X Menu Close
+                                #hamburger_close {
+                                    z-index: 100;
+                                    width: 15vw;
+                                    
+                                    opacity: 0;
+                                }
+                                // show the menu close (when pressed)
+                                #hamburger_close.is-shown {
+                                    transition: .3s;
+                                    opacity: 1;
+                                }
                             }
                         }
                     }
@@ -194,11 +215,12 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: 6vh 3vw -5vh 0;
+                        margin: -12vh 3vw -5vh 0;
+                        // background-color: orange;
                         // margin: 0vh 0 0 0;
                         #home_headshot {
-                            width: 40vw;
-                            height: 40vw;
+                            width: 44vw;
+                            height: 44vw;
                             border-radius: 50%; 
                             position: absolute; 
                             margin: -85vw 0 0 0; 
@@ -217,15 +239,15 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        margin: -5vh 5vw 0 0;
+                        margin: -13vh 5vw 0 0;
                         // height: 100vh;
                         .home_name {
-                            margin: 0 0 1.5vh 0;
+                            margin: 0vh 0 1.5vh 0;
                             h1 {
                                 font-family: 'Inter', sans-serif;
                                 color: white;
                                 // color: $positioncolor;
-                                font-size: 6vw;
+                                font-size: 8vw;
                             }
                         }
                         .job_description {
@@ -242,7 +264,7 @@ $darkgrey: darkgrey;
                                 color: $positioncolor;
                                 color: $mainblue;
                                 // color: white;
-                                font-size: 4vw;
+                                font-size: 5vw;
                             }
                         }
                         .my_mantra {
@@ -252,30 +274,29 @@ $darkgrey: darkgrey;
                                 color: white;
                                 // color: $positioncolor;
                                 font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
+                                font-size: 4.5vw;
                                 // font-weight: bold;
                                 text-align: center;
                             }
                         }
-                        // .learn_more {
-                        //     width: 70vw;
-                        //     height: 10vw;
-                        //     margin: 12vh 0 -15vh 0;
-                        //     border-radius: 5px;
-                        //     background-color: $portfolios;
-                        //     // background-color: white;
-                        //     // background-color: $positioncolor;
-                        //     border: none;
-                        //     box-shadow: 5px 5px 4px $boxshadowcircles;
-                        //     a {
-                        //         color: white;
-                        //         // color: $mainblue;
-                        //         // color: $darkblue;
-                        //         text-decoration: none;
-                        //         font-family: 'Roboto', sans-serif;
-                        //         font-size: 4vw;
-                        //     }
-                        // }
+                        .learn_more {
+                            width: 65vw;
+                            height: 10vw;
+                            margin: 8vh 0 -15vh 0;
+                            border-radius: 5px;
+                            background-color: $portfolios;
+                            // background-color: $mainblue;
+                            border: none;
+                            // box-shadow: 5px 5px 4px $boxshadowcircles;
+                            a {
+                                color: white;
+                                // color: $mainblue;
+                                // color: $darkblue;
+                                text-decoration: none;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                            }
+                        }
                     }
                 }
                 // About Section
@@ -325,7 +346,7 @@ $darkgrey: darkgrey;
                                 // box-shadow: 1px 1px 2px $boxshadowcircles;
                                 // box-shadow: 5px 5px 4px #0e3f42;
                                 margin: 4vh 0 0 -3vw;
-                                width: 77vw;
+                                width: 65vw;
                                 height: 10vw;
                                 color: white;
                                 // color: $resumebutton;

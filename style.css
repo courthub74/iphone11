@@ -30,11 +30,12 @@
     height: 11vw;
     margin: 6vh 0 0 15vw;
     transition: 3s all ease-in-out;
-    border: 2px solid #36395D;
+    border: none;
     border-radius: 5px;
     padding: 3vw;
     background-color: white;
     background-color: #36395D;
+    background-color: #080E2F;
   }
   * body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
     font-family: "Inter", sans-serif;
@@ -85,22 +86,33 @@
     justify-content: center;
     align-items: center;
   }
-  * body .container .the_top_nav .nav_top_contents .hamburgermobile #top_hamburger {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger {
+    position: relative;
+    margin: 6vh 15vw 0 0;
+    background-color: #080E2F;
+  }
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger #top_hamburger {
     width: 10vw;
     height: 10vw;
-    margin: 6vh 15vw 0 0;
     transition: 1s all ease-in-out;
-    position: relative;
   }
-  * body .container .the_top_nav .nav_top_contents .hamburgermobile #top_hamburger.dissapear {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .burger #top_hamburger.dissapear {
     opacity: 0;
     transition: 1s all ease-in-out;
   }
-  * body .container .the_top_nav .nav_top_contents .hamburgermobile #hamburger_close {
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .xclose {
     position: absolute;
+    margin: 6vh 14vw 0 0;
+    background-color: #080E2F;
+  }
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .xclose #hamburger_close {
     z-index: 100;
     width: 15vw;
-    margin: 6vh 14vw 0 0;
+    opacity: 0;
+  }
+  * body .container .the_top_nav .nav_top_contents .hamburgermobile .xclose #hamburger_close.is-shown {
+    transition: 0.3s;
+    opacity: 1;
   }
   * body .container .the_top_nav.dissapear {
     opacity: 0;
@@ -123,11 +135,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6vh 3vw -5vh 0;
+    margin: -12vh 3vw -5vh 0;
   }
   * body .container .section_one .section_one_headshot #home_headshot {
-    width: 40vw;
-    height: 40vw;
+    width: 44vw;
+    height: 44vw;
     border-radius: 50%;
     position: absolute;
     margin: -85vw 0 0 0;
@@ -142,15 +154,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -5vh 5vw 0 0;
+    margin: -13vh 5vw 0 0;
   }
   * body .container .section_one .section_one_content .home_name {
-    margin: 0 0 1.5vh 0;
+    margin: 0vh 0 1.5vh 0;
   }
   * body .container .section_one .section_one_content .home_name h1 {
     font-family: "Inter", sans-serif;
     color: white;
-    font-size: 6vw;
+    font-size: 8vw;
   }
   * body .container .section_one .section_one_content .job_description {
     display: flex;
@@ -166,7 +178,7 @@
     font-family: "Roboto", sans-serif;
     color: #8081AA;
     color: #080E2F;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   * body .container .section_one .section_one_content .my_mantra {
     display: flex;
@@ -175,8 +187,22 @@
   * body .container .section_one .section_one_content .my_mantra p {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 4vw;
+    font-size: 4.5vw;
     text-align: center;
+  }
+  * body .container .section_one .section_one_content .learn_more {
+    width: 65vw;
+    height: 10vw;
+    margin: 8vh 0 -15vh 0;
+    border-radius: 5px;
+    background-color: #36395D;
+    border: none;
+  }
+  * body .container .section_one .section_one_content .learn_more a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 4vw;
   }
   * body .container .section_two {
     background-color: #146166;
@@ -216,7 +242,7 @@
     border-radius: 5px;
     background-color: #507E81;
     margin: 4vh 0 0 -3vw;
-    width: 77vw;
+    width: 65vw;
     height: 10vw;
     color: white;
     text-decoration: none;
