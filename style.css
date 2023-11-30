@@ -33,7 +33,7 @@
     width: 25vw;
     height: 25vw;
     margin: 1.5vh 0 0 7vw;
-    transition: 3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     border: none;
     border-radius: 5px;
     padding: 3vw;
@@ -42,7 +42,7 @@
   }
   * body .container .the_top_nav .nav_top_contents #courdevs_top #courdevs_top_logo.appear {
     opacity: 1;
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents .you {
     display: flex;
@@ -50,7 +50,7 @@
     justify-content: left;
     align-items: center;
     gap: 0.5vh;
-    margin: 2.5vh 0 0 -60vw;
+    margin: 2.5vh 0 0 -40vw;
     opacity: 0;
     transition: 1s all ease-in-out;
   }

@@ -10,15 +10,19 @@ let hamburger_close = document.getElementById('hamburger_close');
 // query the slide in menu
 
 // query the courdevs small logo
+let courdevs_top_logo = document.getElementById('courdevs_top_logo');
 
 
 // event listener on the hamburger
 burger_menu_button.addEventListener('click', function () {
-    // let num = 1 || if top hamburger.dissapear
     // test print
     console.log("Hamburger Menu Button");
-    // make burger dissapear
+    // toggle burger dissapear/re-appear
     top_hamburger.classList.toggle('dissapear');
-    // make x appear
+    // toggle x appear/dissapear
     hamburger_close.classList.toggle('appear');
+    // toggle top logo appear/dissapear
+    courdevs_top_logo.classList.toggle('appear');
+    // toggle menu slide in/slide out
 });
+

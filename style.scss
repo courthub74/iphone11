@@ -90,7 +90,7 @@ $darkgrey: darkgrey;
                                 width: 25vw;
                                 height: 25vw;
                                 margin: 1.5vh 0 0 7vw;
-                                transition: 3s all ease-in-out;
+                                transition: .5s all ease-in-out;
                                 // border: 2px solid $portfolios;
                                 border: none;
                                 border-radius: 5px;
@@ -101,7 +101,7 @@ $darkgrey: darkgrey;
                             }
                             #courdevs_top_logo.appear {
                                 opacity: 1;
-                                transition: 1s all ease-in-out;
+                                transition: .5s all ease-in-out;
                             }
                         }
                         .you {
@@ -111,7 +111,7 @@ $darkgrey: darkgrey;
                             align-items: center;
                             gap: .5vh;
                             // margin: 4.5vh 0 0 -60vw;
-                            margin: 2.5vh 0 0 -60vw;
+                            margin: 2.5vh 0 0 -40vw;
                             opacity: 0;
                             transition: 1s all ease-in-out;
                             #name {
