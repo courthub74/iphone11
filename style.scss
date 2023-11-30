@@ -75,7 +75,7 @@ $darkgrey: darkgrey;
                     top: 0;
                     width: 100%;
                     z-index: 98;
-                    height: 14vh;
+                    height: 17vh;
                     transition: 1s all ease-in-out;
                     .nav_top_contents {
                         display: flex;
@@ -111,7 +111,7 @@ $darkgrey: darkgrey;
                             align-items: center;
                             gap: .5vh;
                             // margin: 4.5vh 0 0 -60vw;
-                            margin: 2.5vh 0 0 -40vw;
+                            margin: 4vh 0 0 -40vw;
                             opacity: 0;
                             transition: 1s all ease-in-out;
                             #name {
@@ -157,7 +157,7 @@ $darkgrey: darkgrey;
                                 width: 25vw;
                                 height: 20vw;
                                 // margin: 5vh 0 0 0;
-                                margin: 2vh 5vw 0 0;
+                                margin: 4vh 5vw 0 0;
                                 background-color: $mainblue;
                                 border: none;
                                 #top_hamburger {
@@ -232,8 +232,8 @@ $darkgrey: darkgrey;
                         display: flex;
                         flex-direction: column;
                         gap: 2vh;
-                        margin: 0 0 0 7vw;
-                        padding-top: 5vh;
+                        margin: 2vh 0 0 7vw;
+                        padding-top: 2vh;
                         a {
                             text-decoration: none;
                             color: white;
@@ -1882,7 +1882,7 @@ $darkgrey: darkgrey;
                     // background: $mainblue;
                     // opacity: .5;
                     background-color: $mainblue;
-                    // background-color: red;
+                    // transition: 1s all ease-in-out;
                     opacity: 0;
                 }
             }

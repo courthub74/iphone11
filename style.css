@@ -15,7 +15,7 @@
     top: 0;
     width: 100%;
     z-index: 98;
-    height: 14vh;
+    height: 17vh;
     transition: 1s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents {
@@ -50,7 +50,7 @@
     justify-content: left;
     align-items: center;
     gap: 0.5vh;
-    margin: 2.5vh 0 0 -40vw;
+    margin: 4vh 0 0 -40vw;
     opacity: 0;
     transition: 1s all ease-in-out;
   }
@@ -88,7 +88,7 @@
     border: 1px solid wheat;
     width: 25vw;
     height: 20vw;
-    margin: 2vh 5vw 0 0;
+    margin: 4vh 5vw 0 0;
     background-color: #080E2F;
     border: none;
   }
@@ -137,8 +137,8 @@
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    margin: 0 0 0 7vw;
-    padding-top: 5vh;
+    margin: 2vh 0 0 7vw;
+    padding-top: 2vh;
   }
   * body .container .slide_in_menu .mobilelisthome a {
     text-decoration: none;
