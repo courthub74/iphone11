@@ -80,36 +80,29 @@ $darkgrey: darkgrey;
                     .nav_top_contents {
                         display: flex;
                         justify-content: space-between;
-                        #courdevs_top_logo {
-                            // width: 25vw;
-                            // height: 25vw;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            width: 30vw;
-                            height: 11vw;
-                            margin: 6vh 0 0 15vw;
-                            transition: 3s all ease-in-out;
-                            // border: 2px solid $portfolios;
-                            border: none;
-                            border-radius: 5px;
-                            padding: 3vw;
-                            background-color: white;
-                            background-color: $portfolios;
-                            background-color: $mainblue;
-                            a {
-                                font-family: 'Inter', sans-serif;
-                                // font-weight: bold;
-                                text-align: center;
-                                color: white;
-                                // color: $mainblue;
-                                font-size: 4vw;
-                                text-decoration: none;
+                        #courdevs_top {
+                            width: 25vw;
+                            height: 25vw;
+                            #courdevs_top_logo {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 25vw;
+                                height: 25vw;
+                                margin: 1.5vh 0 0 7vw;
+                                transition: 3s all ease-in-out;
+                                // border: 2px solid $portfolios;
+                                border: none;
+                                border-radius: 5px;
+                                padding: 3vw;
+                                background-color: $mainblue;
+                                opacity: 0;
+                                // background-color: orange;
                             }
-                        }
-                        #courdevs_top_logo.dissapear {
-                            opacity: 0;
-                            transition: 1s all ease-in-out;
+                            #courdevs_top_logo.appear {
+                                opacity: 1;
+                                transition: 1s all ease-in-out;
+                            }
                         }
                         .you {
                             display: flex;
@@ -1773,7 +1766,7 @@ $darkgrey: darkgrey;
                                 #submitemail {
                                     background-color: $portfolios;
                                     border: none;
-                                    box-shadow: 3px 3px 2px $boxshadowcircles;
+                                    // box-shadow: 3px 3px 2px $boxshadowcircles;
                                     border-radius: 5px;
                                     width: 73vw;
                                     height: 10vw;

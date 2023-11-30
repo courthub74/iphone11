@@ -22,30 +22,26 @@
     display: flex;
     justify-content: space-between;
   }
-  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
+  * body .container .the_top_nav .nav_top_contents #courdevs_top {
+    width: 25vw;
+    height: 25vw;
+  }
+  * body .container .the_top_nav .nav_top_contents #courdevs_top #courdevs_top_logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 11vw;
-    margin: 6vh 0 0 15vw;
+    width: 25vw;
+    height: 25vw;
+    margin: 1.5vh 0 0 7vw;
     transition: 3s all ease-in-out;
     border: none;
     border-radius: 5px;
     padding: 3vw;
-    background-color: white;
-    background-color: #36395D;
     background-color: #080E2F;
-  }
-  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 4vw;
-    text-decoration: none;
-  }
-  * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
     opacity: 0;
+  }
+  * body .container .the_top_nav .nav_top_contents #courdevs_top #courdevs_top_logo.appear {
+    opacity: 1;
     transition: 1s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents .you {
@@ -1526,7 +1522,6 @@
   * body .container .section_seven .section_seven_bottom form .submit_button #submitemail {
     background-color: #36395D;
     border: none;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
     border-radius: 5px;
     width: 73vw;
     height: 10vw;
