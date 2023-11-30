@@ -212,19 +212,24 @@ $darkgrey: darkgrey;
                 .slide_in_menu {
                     // set margin here
                     // slide menu list
-                    margin: 10vh 0 0 4.5vw;
+                    margin: 16vh 0 0 4.5vw;
+                    // padding-bottom: 10vh;
                     position: fixed;
                     top: 0;
+                    // send it to the left over 100% of the page
                     left: 100%;
                     transition: .8s;
-                    z-index: 95;
-                    // background-color: #00567F;
+                    z-index: 98;
+                    background-color: #00567F;
+                    background-color: $mainblue;
                     height: 100vh;
+                    width: 100%;
                     .mobilelisthome {
                         display: flex;
                         flex-direction: column;
                         gap: 2vh;
                         margin: 0 0 0 7vw;
+                        padding-top: 5vh;
                         a {
                             text-decoration: none;
                             color: white;
@@ -243,6 +248,11 @@ $darkgrey: darkgrey;
                             }
                         }
                     }
+                }
+                .slide_in_menu.slide-in {
+                    // bring the menu in to the zero mark
+                    // which is at the left point 
+                    left: 0;
                 }
 
                 // Page Section
