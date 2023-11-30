@@ -117,6 +117,35 @@
     opacity: 1;
     transition: 0.7s all ease-in;
   }
+  * body .container .slide_in_menu {
+    margin: 10vh 0 0 4.5vw;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    transition: 0.8s;
+    z-index: 95;
+    height: 100vh;
+  }
+  * body .container .slide_in_menu .mobilelisthome {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 0 0 0 7vw;
+  }
+  * body .container .slide_in_menu .mobilelisthome a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 7vw;
+  }
+  * body .container .slide_in_menu .slidesocialsmobilehome {
+    margin: 4vh 0 0 6vw;
+  }
+  * body .container .slide_in_menu .slidesocialsmobilehome a img {
+    width: 13vw;
+    height: 13vw;
+  }
   * body .container .section_one {
     display: flex;
     flex-direction: column;

@@ -208,6 +208,43 @@ $darkgrey: darkgrey;
                     transition: .7s all ease-in;
                 }
 
+                // Slide In Menu
+                .slide_in_menu {
+                    // set margin here
+                    // slide menu list
+                    margin: 10vh 0 0 4.5vw;
+                    position: fixed;
+                    top: 0;
+                    left: 100%;
+                    transition: .8s;
+                    z-index: 95;
+                    // background-color: #00567F;
+                    height: 100vh;
+                    .mobilelisthome {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2vh;
+                        margin: 0 0 0 7vw;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: 7vw;
+                        }
+                    }
+                    // slide menu socials
+                    .slidesocialsmobilehome {
+                        margin: 4vh 0 0 6vw;
+                        a {
+                            img {
+                                width: 13vw;
+                                height: 13vw;
+                            }
+                        }
+                    }
+                }
+
                 // Page Section
                 // Home Page
                 .section_one {
@@ -1822,6 +1859,13 @@ $darkgrey: darkgrey;
                     }
                 }
             }
+            #whole_page.lock {
+                // lock the whole page
+            }
+            // #whole_page.darken {
+            //     // darken the page
+            //     filter: brightness(30%);
+            // }
         }
     }
 }
