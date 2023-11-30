@@ -14,7 +14,10 @@ let slide_in_menu = document.getElementById('slide_in_menu');
 let courdevs_top_logo = document.getElementById('courdevs_top_logo');
 
 // query the whole page
-let whole_page = document.getElementById('whole_page');
+let whole_page = document.querySelector('.container');
+
+// query the whole body
+let whole_body = document.querySelector('body');
 
 
 // event listener on the hamburger
@@ -22,7 +25,9 @@ burger_menu_button.addEventListener('click', function () {
     // test print
     console.log("Hamburger Menu Button");
     // lock the whole page
-    
+    whole_body.classList.toggle('lock');
+    // darken the whole page below the menu
+    // whole_page.classList.toggle('darken');
     // toggle burger dissapear/re-appear
     top_hamburger.classList.toggle('dissapear');
     // toggle x appear/dissapear

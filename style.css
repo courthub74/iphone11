@@ -1602,6 +1602,9 @@
     color: #58a6ff;
     font-family: "Inter", sans-serif;
   }
+  * body.lock {
+    overflow: hidden;
+  }
 }
 @media screen and (min-width: 451px) {
   * {

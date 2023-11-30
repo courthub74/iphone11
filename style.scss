@@ -257,6 +257,7 @@ $darkgrey: darkgrey;
 
                 // Page Section
                 // Home Page
+                // Whole Page ID here
                 .section_one {
                     display: flex;
                     flex-direction: column;
@@ -1869,13 +1870,17 @@ $darkgrey: darkgrey;
                     }
                 }
             }
-            #whole_page.lock {
-                // lock the whole page
-            }
-            // #whole_page.darken {
+            // .container.lock {
+            //     // lock the whole page
+            //     overflow: hidden;
+            // }
+            // .container.darken {
             //     // darken the page
             //     filter: brightness(30%);
             // }
+        }
+        body.lock {
+            overflow: hidden;
         }
     }
 }
