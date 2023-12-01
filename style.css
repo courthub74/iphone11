@@ -1349,7 +1349,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5vh;
+    gap: 0.4vh;
     margin: 3vh 0 0 0;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog1content {
