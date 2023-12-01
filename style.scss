@@ -1109,9 +1109,9 @@ $darkgrey: darkgrey;
                                         transition: .7s all ease-out;
                                         opacity: 0;
                                     }
-                                    // #firebase_description {
-                                    //     opacity: 0;
-                                    // }
+                                    #firebase_description {
+                                        opacity: 0;
+                                    }
                                     #firebase_description.show {
                                         font-family: 'Roboto', sans-serif;
                                         font-size: 4vw;

@@ -914,6 +914,9 @@
     transition: 0.7s all ease-out;
     opacity: 0;
   }
+  * body .container #whole_page .section_four .section_four_bottom .skill_circle .skill_front #firebase_description {
+    opacity: 0;
+  }
   * body .container #whole_page .section_four .section_four_bottom .skill_circle .skill_front #firebase_description.show {
     font-family: "Roboto", sans-serif;
     font-size: 4vw;
