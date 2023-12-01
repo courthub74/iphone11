@@ -50,7 +50,7 @@
     justify-content: left;
     align-items: center;
     gap: 0.5vh;
-    margin: 4vh 0 0 -40vw;
+    margin: 4.5vh 0 0 -35vw;
     opacity: 0;
     transition: 1s all ease-in-out;
   }
