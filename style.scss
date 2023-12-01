@@ -1610,15 +1610,15 @@ $darkgrey: darkgrey;
                                     border: 3px solid $mainblue;
                                     background-color: $skillsteal;
                                     border-radius: 50%;
-                                    width: 55vw;
-                                    height: 55vw;
+                                    width: 53vw;
+                                    height: 53vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     z-index: 100;
                                     .top_blog_circle_front {
-                                        width: 50vw;
-                                        height: 50vw;
+                                        width: 48vw;
+                                        height: 48vw;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         display: flex;
@@ -1768,7 +1768,7 @@ $darkgrey: darkgrey;
                     // Contact Section
                     .section_seven {
                         background-color: $mainblue;
-                        height: 110vh;
+                        height: 105vh;
                         .section_seven_top {
                             display: flex;
                             .contact_title {
@@ -1806,7 +1806,7 @@ $darkgrey: darkgrey;
                                     }
                                     textarea {
                                         background-color: $portfolios;
-                                        height: 30vh;
+                                        height: 25vh;
                                         width: 73vw;
                                         border: none;
                                         border-radius: 5px;
