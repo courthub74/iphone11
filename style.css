@@ -1484,16 +1484,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    height: 50vw;
+    width: 47vw;
+    height: 47vw;
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body .container #whole_page .section_six .section_six_bottom .blog_circle .blog_circle_front {
-    width: 47vw;
-    height: 47vw;
+    width: 43vw;
+    height: 43vw;
     border: 1px solid #080E2F;
     background-color: #080E2F;
     border-radius: 50%;
@@ -1503,9 +1503,9 @@
     justify-content: center;
     align-items: center;
   }
-  * body .container #whole_page .section_six .section_six_bottom .blog_circle .blog_circle_front h1 {
+  * body .container #whole_page .section_six .section_six_bottom .blog_circle .blog_circle_front p {
     color: white;
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
   * body .container #whole_page .section_seven {
     background-color: #080E2F;

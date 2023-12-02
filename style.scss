@@ -1737,8 +1737,8 @@ $darkgrey: darkgrey;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    width: 50vw;
-                                    height: 50vw;
+                                    width: 47vw;
+                                    height: 47vw;
                                     border: 3px solid $mainblue;
                                     background-color: $skillsteal;
                                     // background-color: yellow;
@@ -1747,8 +1747,8 @@ $darkgrey: darkgrey;
                                     box-shadow: 2px 2px $boxshadowcircles;
                                 }
                                 .blog_circle_front {
-                                    width: 47vw;
-                                    height: 47vw;
+                                    width: 43vw;
+                                    height: 43vw;
                                     border: 1px solid $mainblue;
                                     background-color: $mainblue;
                                     border-radius: 50%;
@@ -1757,9 +1757,9 @@ $darkgrey: darkgrey;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
-                                    h1 {
+                                    p {
                                         color: white;
-                                        font-size: 5.5vw;
+                                        font-size: 5vw;
                                     }
                                 }
                             }
