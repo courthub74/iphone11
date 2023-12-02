@@ -58,7 +58,7 @@ $darkgreen: darkgreen;
 $darkgrey: darkgrey;
 
 // Mobile
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) and (orientation: landscape) {
     * {
         margin: 0;
         scroll-behavior: smooth;
