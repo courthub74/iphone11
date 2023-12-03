@@ -1177,14 +1177,14 @@
     display: flex;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_logo {
-    margin: 3.5vh 0 0 7vw;
+    margin: 3.7vh 0 0 7vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_logo #courdevelops {
     width: 23vw;
     height: 23vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_description {
-    margin: 6.5vh 0 0 7vw;
+    margin: 6.8vh 0 0 7vw;
     display: flex;
     flex-direction: column;
   }
@@ -1229,14 +1229,14 @@
     opacity: 1;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_logo {
-    margin: 5.5vh 0 0 9vw;
+    margin: 5.7vh 0 0 9vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_logo #r1rcm {
     width: 19vw;
     height: 14vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description {
-    margin: 6.5vh 0 0 4vw;
+    margin: 6.7vh 0 0 4vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm {
     transition: 0.9s all ease-in;
@@ -1289,7 +1289,7 @@
     height: 21vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description {
-    margin: 6vh 0 0 7.5vw;
+    margin: 6.2vh 0 0 7.5vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description .main_description_slea {
     transition: 0.9s all ease-in;
@@ -1310,7 +1310,7 @@
     opacity: 0;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea {
-    margin: -8.4vh 0 0 2vw;
+    margin: -8.2vh 0 0 2vw;
     text-align: left;
     opacity: 0;
     display: flex;
