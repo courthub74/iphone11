@@ -1468,7 +1468,7 @@
   * body .container #whole_page .section_six .section_six_bottom .blog_back_arrow {
     background: none;
     border: none;
-    margin: 0 0 0 35vw;
+    margin: 1vh 0 0 35vw;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog_back_arrow #blog_back_arrow {
     width: 11vw;
