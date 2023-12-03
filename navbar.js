@@ -49,6 +49,8 @@ window.addEventListener('scroll', function () {
         console.log("You are Scrolling Down");
         // START THE timeounav interval again
     } else {
+        // if (currentScroll - lastScroll greater than zero and 3 less than lastScroll)\
+        // OR you can just make a back to top arrow pop up
         // scrolled up -- navbar show
         top_navbar.classList.remove('dissapear');
         menu_burger.classList.remove('dissapear');

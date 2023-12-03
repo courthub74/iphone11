@@ -76,7 +76,7 @@ $darkgrey: darkgrey;
                     width: 100%;
                     z-index: 98;
                     height: 17vh;
-                    transition: 1s all ease-in-out;
+                    transition: 2s all ease-in-out;
                     .nav_top_contents {
                         display: flex;
                         justify-content: space-between;
@@ -90,7 +90,7 @@ $darkgrey: darkgrey;
                                 width: 25vw;
                                 height: 25vw;
                                 margin: 1.5vh 0 0 7vw;
-                                transition: .05s all ease-in-out;
+                                transition: 2s all ease-in-out;
                                 // border: 2px solid $portfolios;
                                 border: none;
                                 border-radius: 5px;
@@ -113,7 +113,7 @@ $darkgrey: darkgrey;
                             // margin: 4.5vh 0 0 -60vw;
                             margin: 4.5vh 0 0 -35vw;
                             opacity: 0;
-                            transition: 1s all ease-in-out;
+                            transition: 2s all ease-in-out;
                             #name {
                                 color: white;
                                 font-size: 5vw;
@@ -1378,10 +1378,10 @@ $darkgrey: darkgrey;
                             justify-content: center;
                             align-items: center;
                             gap: 5vh;
-                            margin: 5vh 2vw 0 0;
+                            margin: 8vh 2vw 0 0;
                             .experience_box {
                                 width: 80vw;
-                                height: 45vw;
+                                height: 40vw;
                                 border-radius: 10px;
                                 border: none;
                                 // border: 3px solid $skillswhite;
@@ -1401,7 +1401,7 @@ $darkgrey: darkgrey;
                                 // }
                                 // COURDEVELOPS
                                 .courdevelops_logo {
-                                    margin: 4.5vh 0 0 7vw;
+                                    margin: 3.5vh 0 0 7vw;
                                     #courdevelops {
                                         width: 23vw;
                                         height: 23vw;
@@ -1409,7 +1409,7 @@ $darkgrey: darkgrey;
                                 }
                                 .courdevelops_description {
                                     // margin: 7.5vh 0 0 2.5vw;
-                                    margin: 7.5vh 0 0 7vw;
+                                    margin: 6.5vh 0 0 7vw;
                                     display: flex;
                                     flex-direction: column;
                                     // transition: 1s all ease-in;
@@ -1456,7 +1456,7 @@ $darkgrey: darkgrey;
                                 }
                                 // R1RCM
                                 .r1rcm_logo {
-                                    margin: 7vh 0 0 9vw;
+                                    margin: 5.5vh 0 0 9vw;
                                     #r1rcm {
                                         width: 19vw;
                                         height: 14vw;
@@ -1464,11 +1464,12 @@ $darkgrey: darkgrey;
                                 }
                                 .r1rcm_description {
                                     // margin: 7.5vh 0 0 2.5vw;
-                                    margin: 8vh 0 0 4vw;
+                                    margin: 6.5vh 0 0 4vw;
                                     .main_description_r1rcm {
                                         transition: .9s all ease-in;
                                         border: none;
                                         background-color: $portfolios;
+                                        margin: 0 0 0 5vw;
                                         h1 {
                                             color: white;
                                             font-size: 5vw;
@@ -1485,13 +1486,14 @@ $darkgrey: darkgrey;
                                         opacity: 0;
                                     }
                                     .detailed_description_r1rcm {
-                                        margin: -9vh 0 0 5vw;
+                                        margin: -8vh 0 0 5vw;
                                         text-align: left;
                                         opacity: 0;
                                         display: flex;
                                         flex-direction: column;
                                         gap: 1vh;
                                         transition: .1s all ease-in;
+                                        // background-color: #00C6C3;
                                         h1 {
                                             color: $jobdescription;
                                             font-size: 3.5vw;
@@ -1510,7 +1512,7 @@ $darkgrey: darkgrey;
                                 }
                                 // SLEA
                                 .slea_logo {
-                                    margin: 5vh 0 0 8vw;
+                                    margin: 4vh 0 0 8vw;
                                     #slea {
                                         width: 20vw;
                                         height: 21vw;
@@ -1518,7 +1520,7 @@ $darkgrey: darkgrey;
                                 }
                                 .slea_description {
                                     // margin: 7.5vh 0 0 2.5vw;
-                                    margin: 8vh 0 0 7.5vw;
+                                    margin: 6vh 0 0 7.5vw;
                                     .main_description_slea {
                                             transition: .9s all ease-in;
                                             border: none;
@@ -1538,7 +1540,7 @@ $darkgrey: darkgrey;
                                         opacity: 0;
                                     }
                                     .detailed_description_slea {
-                                        margin: -9vh 0 0 2vw;
+                                        margin: -8.4vh 0 0 2vw;
                                         text-align: left;
                                         opacity: 0;
                                         display: flex;

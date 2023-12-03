@@ -16,7 +16,7 @@
     width: 100%;
     z-index: 98;
     height: 17vh;
-    transition: 1s all ease-in-out;
+    transition: 2s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents {
     display: flex;
@@ -33,7 +33,7 @@
     width: 25vw;
     height: 25vw;
     margin: 1.5vh 0 0 7vw;
-    transition: 0.05s all ease-in-out;
+    transition: 2s all ease-in-out;
     border: none;
     border-radius: 5px;
     padding: 3vw;
@@ -52,7 +52,7 @@
     gap: 0.5vh;
     margin: 4.5vh 0 0 -35vw;
     opacity: 0;
-    transition: 1s all ease-in-out;
+    transition: 2s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents .you #name {
     color: white;
@@ -1163,11 +1163,11 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 5vh 2vw 0 0;
+    margin: 8vh 2vw 0 0;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box {
     width: 80vw;
-    height: 45vw;
+    height: 40vw;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 3px 5px #8081AA;
@@ -1177,14 +1177,14 @@
     display: flex;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_logo {
-    margin: 4.5vh 0 0 7vw;
+    margin: 3.5vh 0 0 7vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_logo #courdevelops {
     width: 23vw;
     height: 23vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .courdevelops_description {
-    margin: 7.5vh 0 0 7vw;
+    margin: 6.5vh 0 0 7vw;
     display: flex;
     flex-direction: column;
   }
@@ -1229,19 +1229,20 @@
     opacity: 1;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_logo {
-    margin: 7vh 0 0 9vw;
+    margin: 5.5vh 0 0 9vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_logo #r1rcm {
     width: 19vw;
     height: 14vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description {
-    margin: 8vh 0 0 4vw;
+    margin: 6.5vh 0 0 4vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm {
     transition: 0.9s all ease-in;
     border: none;
     background-color: #36395D;
+    margin: 0 0 0 5vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm h1 {
     color: white;
@@ -1258,7 +1259,7 @@
     opacity: 0;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .r1rcm_description .detailed_description_r1rcm {
-    margin: -9vh 0 0 5vw;
+    margin: -8vh 0 0 5vw;
     text-align: left;
     opacity: 0;
     display: flex;
@@ -1281,14 +1282,14 @@
     opacity: 1;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_logo {
-    margin: 5vh 0 0 8vw;
+    margin: 4vh 0 0 8vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_logo #slea {
     width: 20vw;
     height: 21vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description {
-    margin: 8vh 0 0 7.5vw;
+    margin: 6vh 0 0 7.5vw;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description .main_description_slea {
     transition: 0.9s all ease-in;
@@ -1309,7 +1310,7 @@
     opacity: 0;
   }
   * body .container #whole_page .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea {
-    margin: -9vh 0 0 2vw;
+    margin: -8.4vh 0 0 2vw;
     text-align: left;
     opacity: 0;
     display: flex;
