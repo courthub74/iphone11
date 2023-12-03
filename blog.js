@@ -22,3 +22,10 @@ blog1back.addEventListener('click', function () {
     // slide the blog 1 content out
     blog1content.classList.toggle('slide_in');
 });
+
+// SOCIAL SHARE BUTTONS
+const link = encodeURI(window.location.href);
+const post = encodeURIComponent('Check out this blog post:');
+const title = encodeURIComponent(document.querySelector('title').textContent);
+
+console.log([link, post, title]);
