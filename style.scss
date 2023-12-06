@@ -14,6 +14,9 @@ $hoverfonts: #B7BCD6;
 $experiencegreen: #255C5A;
 $positioncolor: #8081AA;
 
+// Next Green
+$nextgreen: #00313E;
+
 // Other Blue
 $otherblue: #00567F;
 
@@ -114,6 +117,10 @@ $darkgrey: darkgrey;
                             margin: 4.5vh 0 0 -35vw;
                             opacity: 0;
                             transition: 2s all ease-in-out;
+                            #courdevs_float_logo {
+                                width: 10vw;
+                                height: 10vw;
+                            }
                             #name {
                                 color: white;
                                 font-size: 5vw;
@@ -276,12 +283,12 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            margin: -12vh 3vw -5vh 0;
+                            margin: -30vh 3vw -5vh 0;
                             // background-color: orange;
                             // margin: 0vh 0 0 0;
                             #home_headshot {
-                                width: 44vw;
-                                height: 44vw;
+                                width: 50vw;
+                                height: 50vw;
                                 border-radius: 50%; 
                                 position: absolute; 
                                 margin: -85vw 0 0 0; 
@@ -303,19 +310,20 @@ $darkgrey: darkgrey;
                             margin: -13vh 5vw 0 0;
                             // height: 100vh;
                             .home_name {
-                                margin: 0vh 0 1.5vh 0;
+                                margin: 0vh 0 13vh 0;
+                                text-align: center;
                                 h1 {
                                     font-family: 'Inter', sans-serif;
                                     color: white;
                                     // color: $positioncolor;
-                                    font-size: 8vw;
+                                    font-size: 6.5vw;
                                 }
                             }
                             .job_description {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 65vw;
+                                width: 80vw;
                                 height: 11vw;
                                 background-color: $portfolios;
                                 background-color: white;
@@ -341,9 +349,9 @@ $darkgrey: darkgrey;
                                 }
                             }
                             .learn_more {
-                                width: 65vw;
+                                width: 80vw;
                                 height: 10vw;
-                                margin: 8vh 0 -15vh 0;
+                                margin: 8vh 0 -45vh 0;
                                 border-radius: 5px;
                                 background-color: $portfolios;
                                 // background-color: $mainblue;
@@ -355,7 +363,7 @@ $darkgrey: darkgrey;
                                     // color: $darkblue;
                                     text-decoration: none;
                                     font-family: 'Roboto', sans-serif;
-                                    font-size: 4vw;
+                                    font-size: 5vw;
                                 }
                             }
                         }
@@ -363,7 +371,7 @@ $darkgrey: darkgrey;
                     // About Section
                     .section_two {
                         background-color: $skillsteal;
-                        // background-color: $otherblue;
+                        background-color: $nextgreen;
                         height: 110vh;
                         .section_two_top {
                             display: flex;
@@ -380,13 +388,16 @@ $darkgrey: darkgrey;
                             align-items: center;
                             margin: 5vh 0 0 0;
                             .about_content {
-                                // display: flex;
-                                // flex-direction: column;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
                                 width: 80%;
                                 // text-align: center;
                                 color: white;
                                 font-family: 'Roboto', sans-serif;
                                 font-size: 4vw;
+                                text-align: center;
                                 .about_page_Logo {
                                     display: flex;
                                     justify-content: center;
@@ -396,6 +407,18 @@ $darkgrey: darkgrey;
                                         height: 30vw;
                                     }
                                 }
+                                .passion_block {
+                                    border: 3px solid $skillsteal;
+                                    border-radius: 5px;
+                                    // background-color: white;
+                                    color: white;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    padding: 1vh 6vh 1vh 6vh;
+                                }
+                                .bottom_para {
+                                    margin: 5vh 0 0 0;
+                                }
                             }
                             // Download Resume Button
                             .resume_button_div {
@@ -403,11 +426,11 @@ $darkgrey: darkgrey;
                                     // border: 2px solid $resumebutton;
                                     border-radius: 5px;
                                     background-color: $resumebutton;
-                                    // background-color: white;
+                                    background-color: $skillsteal;
                                     // box-shadow: 1px 1px 2px $boxshadowcircles;
                                     // box-shadow: 5px 5px 4px #0e3f42;
                                     margin: 4vh 0 0 -3vw;
-                                    width: 65vw;
+                                    width: 80vw;
                                     height: 10vw;
                                     color: white;
                                     // color: $resumebutton;
