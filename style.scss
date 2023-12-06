@@ -311,12 +311,13 @@ $darkgrey: darkgrey;
                             // height: 100vh;
                             .home_name {
                                 margin: 0vh 0 13vh 0;
+                                margin: 0 0 2vh 0;
                                 text-align: center;
                                 h1 {
                                     font-family: 'Inter', sans-serif;
                                     color: white;
                                     // color: $positioncolor;
-                                    font-size: 6.5vw;
+                                    font-size: 7vw;
                                 }
                             }
                             .job_description {
@@ -410,7 +411,7 @@ $darkgrey: darkgrey;
                                 .passion_block {
                                     border: 3px solid $skillsteal;
                                     border-radius: 5px;
-                                    // background-color: white;
+                                    background-color: $mainblue;
                                     color: white;
                                     font-weight: bold;
                                     text-align: center;
@@ -943,6 +944,7 @@ $darkgrey: darkgrey;
                     // Skills Section
                     .section_four {
                         background-color: $skillsteal;
+                        background-color: $nextgreen;
                         height: 100vh;
                         .section_four_top {
                             display: flex;
@@ -1592,6 +1594,7 @@ $darkgrey: darkgrey;
                     // Blog Section
                     .section_six {
                         background-color: $skillsteal;
+                        background-color: $nextgreen;
                         height: 105vh;
                         .section_six_top {
                             display: flex;
@@ -1616,6 +1619,7 @@ $darkgrey: darkgrey;
                             top: 0;
                             left: 100%;
                             background-color: $skillsteal;
+                            background-color: $nextgreen;
                             height: 100vh;
                             width: 100%;
                             margin: 0vh 0 0 0;
@@ -1635,15 +1639,15 @@ $darkgrey: darkgrey;
                                     border: 3px solid $mainblue;
                                     background-color: $skillsteal;
                                     border-radius: 50%;
-                                    width: 53vw;
-                                    height: 53vw;
+                                    width: 50vw;
+                                    height: 50vw;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
                                     z-index: 100;
                                     .top_blog_circle_front {
-                                        width: 48vw;
-                                        height: 48vw;
+                                        width: 45vw;
+                                        height: 45vw;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         display: flex;
@@ -1654,6 +1658,7 @@ $darkgrey: darkgrey;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
                                             text-align: center;
+                                            font-size: 4vw;
                                         }
                                         p {
                                             color: white;
@@ -1672,7 +1677,7 @@ $darkgrey: darkgrey;
                                 // Blog 1 Content
                                 .blog_one_content_outline {
                                     // border: 1px dotted white;
-                                    height: 60%;
+                                    height: 65%;
                                     width: 80%;
                                     margin: 3vh 0 0 8vw;
                                     display: flex;
@@ -1688,12 +1693,12 @@ $darkgrey: darkgrey;
                                 }
                                 // Bottom Blog 1 Circle
                                 .bottom_blog_circle_back {
-                                    width: 55vw;
-                                    height: 27.3vw;
+                                    width: 53vw;
+                                    height: 26vw;
                                     border: 3px solid $mainblue;
-                                    border-bottom-color: $skillsteal;
+                                    border-bottom-color: $nextgreen;
                                     border-radius: 150px 150px 0 0;
-                                    background-color: $skillsteal;
+                                    background-color: $nextgreen;
                                     margin: 2vh 0 0 14.5vw;
                                     display: flex;
                                     justify-content: center;

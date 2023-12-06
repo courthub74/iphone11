@@ -197,12 +197,13 @@
   }
   * body .container #whole_page .section_one .section_one_content .home_name {
     margin: 0vh 0 13vh 0;
+    margin: 0 0 2vh 0;
     text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .home_name h1 {
     font-family: "Inter", sans-serif;
     color: white;
-    font-size: 6.5vw;
+    font-size: 7vw;
   }
   * body .container #whole_page .section_one .section_one_content .job_description {
     display: flex;
@@ -287,6 +288,7 @@
   * body .container #whole_page .section_two .section_two_bottom .about_content .passion_block {
     border: 3px solid #146166;
     border-radius: 5px;
+    background-color: #080E2F;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -755,6 +757,7 @@
   }
   * body .container #whole_page .section_four {
     background-color: #146166;
+    background-color: #00313E;
     height: 100vh;
   }
   * body .container #whole_page .section_four .section_four_top {
@@ -1357,6 +1360,7 @@
   }
   * body .container #whole_page .section_six {
     background-color: #146166;
+    background-color: #00313E;
     height: 105vh;
   }
   * body .container #whole_page .section_six .section_six_top {
@@ -1382,6 +1386,7 @@
     top: 0;
     left: 100%;
     background-color: #146166;
+    background-color: #00313E;
     height: 100vh;
     width: 100%;
     margin: 0vh 0 0 0;
@@ -1403,16 +1408,16 @@
     border: 3px solid #080E2F;
     background-color: #146166;
     border-radius: 50%;
-    width: 53vw;
-    height: 53vw;
+    width: 50vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog1content .blog1outline .top_blog_circle_back .top_blog_circle_front {
-    width: 48vw;
-    height: 48vw;
+    width: 45vw;
+    height: 45vw;
     background-color: #080E2F;
     border-radius: 50%;
     display: flex;
@@ -1424,6 +1429,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     text-align: center;
+    font-size: 4vw;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog1content .blog1outline .top_blog_circle_back .top_blog_circle_front p {
     color: white;
@@ -1432,7 +1438,7 @@
     padding: 1vh 0 0 0;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog1content .blog1outline .blog_one_content_outline {
-    height: 60%;
+    height: 65%;
     width: 80%;
     margin: 3vh 0 0 8vw;
     display: flex;
@@ -1447,12 +1453,12 @@
     font-size: 3.5vw;
   }
   * body .container #whole_page .section_six .section_six_bottom .blog1content .blog1outline .bottom_blog_circle_back {
-    width: 55vw;
-    height: 27.3vw;
+    width: 53vw;
+    height: 26vw;
     border: 3px solid #080E2F;
-    border-bottom-color: #146166;
+    border-bottom-color: #00313E;
     border-radius: 150px 150px 0 0;
-    background-color: #146166;
+    background-color: #00313E;
     margin: 2vh 0 0 14.5vw;
     display: flex;
     justify-content: center;
