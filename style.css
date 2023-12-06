@@ -54,6 +54,10 @@
     opacity: 0;
     transition: 2s all ease-in-out;
   }
+  * body .container .the_top_nav .nav_top_contents .you #courdevs_float_logo {
+    width: 10vw;
+    height: 10vw;
+  }
   * body .container .the_top_nav .nav_top_contents .you #name {
     color: white;
     font-size: 5vw;
@@ -170,11 +174,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -12vh 3vw -5vh 0;
+    margin: -30vh 3vw -5vh 0;
   }
   * body .container #whole_page .section_one .section_one_headshot #home_headshot {
-    width: 44vw;
-    height: 44vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
     position: absolute;
     margin: -85vw 0 0 0;
@@ -192,18 +196,19 @@
     margin: -13vh 5vw 0 0;
   }
   * body .container #whole_page .section_one .section_one_content .home_name {
-    margin: 0vh 0 1.5vh 0;
+    margin: 0vh 0 13vh 0;
+    text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .home_name h1 {
     font-family: "Inter", sans-serif;
     color: white;
-    font-size: 8vw;
+    font-size: 6.5vw;
   }
   * body .container #whole_page .section_one .section_one_content .job_description {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65vw;
+    width: 80vw;
     height: 11vw;
     background-color: #36395D;
     background-color: white;
@@ -226,9 +231,9 @@
     text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .learn_more {
-    width: 65vw;
+    width: 80vw;
     height: 10vw;
-    margin: 8vh 0 -15vh 0;
+    margin: 8vh 0 -45vh 0;
     border-radius: 5px;
     background-color: #36395D;
     border: none;
@@ -237,10 +242,11 @@
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   * body .container #whole_page .section_two {
     background-color: #146166;
+    background-color: #00313E;
     height: 110vh;
   }
   * body .container #whole_page .section_two .section_two_top {
@@ -259,10 +265,15 @@
     margin: 5vh 0 0 0;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 4vw;
+    text-align: center;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .about_page_Logo {
     display: flex;
@@ -273,11 +284,23 @@
     width: 30vw;
     height: 30vw;
   }
+  * body .container #whole_page .section_two .section_two_bottom .about_content .passion_block {
+    border: 3px solid #146166;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1vh 6vh 1vh 6vh;
+  }
+  * body .container #whole_page .section_two .section_two_bottom .about_content .bottom_para {
+    margin: 5vh 0 0 0;
+  }
   * body .container #whole_page .section_two .section_two_bottom .resume_button_div #dload_resume {
     border-radius: 5px;
     background-color: #507E81;
+    background-color: #146166;
     margin: 4vh 0 0 -3vw;
-    width: 65vw;
+    width: 80vw;
     height: 10vw;
     color: white;
     text-decoration: none;
