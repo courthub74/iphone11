@@ -536,6 +536,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: 0vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_logo #create_collab {
@@ -544,8 +545,8 @@
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_description p {
     color: white;
     font-family: "Inter", sans-serif;
-    margin: 6vh 0 0 0;
-    font-size: 3.5vw;
+    margin: 4vh 0 0 0;
+    font-size: 4vw;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_technologies {
     display: flex;
