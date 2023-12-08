@@ -263,7 +263,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5vh 0 0 0;
+    margin: 3vh 0 0 0;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content {
     display: flex;
@@ -273,27 +273,33 @@
     width: 80%;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 4vw;
-    text-align: center;
+    font-size: 4.5vw;
+  }
+  * body .container #whole_page .section_two .section_two_bottom .about_content .brand_name {
+    display: flex;
+    justify-content: left;
+    width: 100%;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .about_page_Logo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 4vh 0 4vh 0;
+    width: 100%;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .about_page_Logo #about_page_logo {
-    width: 30vw;
-    height: 30vw;
+    width: 32vw;
+    height: 32vw;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .passion_block {
     border-bottom: 5px solid #146166;
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    text-align: center;
-    padding: 0vh 6vh 1vh 6vh;
+    padding: 0vh 0vh 1vh 0vh;
     font-size: 5vw;
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .bottom_para {
     margin: 2vh 0 0 0;
