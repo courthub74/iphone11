@@ -286,16 +286,17 @@
     height: 30vw;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .passion_block {
-    border: 3px solid #146166;
+    border-bottom: 5px solid #146166;
     border-radius: 5px;
-    background-color: #080E2F;
     color: white;
     font-weight: bold;
     text-align: center;
-    padding: 1vh 6vh 1vh 6vh;
+    padding: 0vh 6vh 1vh 6vh;
+    font-size: 5vw;
+    width: 80%;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .bottom_para {
-    margin: 5vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   * body .container #whole_page .section_two .section_two_bottom .resume_button_div #dload_resume {
     border-radius: 5px;
@@ -546,7 +547,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     margin: 4vh 0 0 0;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_technologies {
     display: flex;
