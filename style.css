@@ -531,8 +531,8 @@
     background-color: #36395D;
     border-radius: 5px;
     flex-direction: column;
-    width: 85%;
-    height: 88vh;
+    width: 80%;
+    height: 85vh;
     transition: ease-in 0.8s;
     display: flex;
     flex-direction: column;
@@ -541,7 +541,7 @@
     margin: 0vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_logo #create_collab {
-    margin: 4vh 0 0 8.5vw;
+    margin: 6vh 0 0 8.5vw;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_description p {
     color: white;
