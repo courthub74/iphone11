@@ -78,7 +78,7 @@ $darkgrey: darkgrey;
                     top: 0;
                     width: 100%;
                     z-index: 98;
-                    height: 17vh;
+                    height: 13vh;
                     transition: 2s all ease-in-out;
                     .nav_top_contents {
                         display: flex;
@@ -114,7 +114,7 @@ $darkgrey: darkgrey;
                             align-items: center;
                             gap: .5vh;
                             // margin: 4.5vh 0 0 -60vw;
-                            margin: 4.5vh 0 0 -35vw;
+                            margin: 3vh 0 0 -35vw;
                             opacity: 0;
                             transition: 2s all ease-in-out;
                             #courdevs_float_logo {
@@ -164,7 +164,7 @@ $darkgrey: darkgrey;
                                 width: 25vw;
                                 height: 20vw;
                                 // margin: 5vh 0 0 0;
-                                margin: 4vh 5vw 0 0;
+                                margin: 3vh 5vw 0 0;
                                 background-color: $mainblue;
                                 border: none;
                                 #top_hamburger {

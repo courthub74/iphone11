@@ -15,7 +15,7 @@
     top: 0;
     width: 100%;
     z-index: 98;
-    height: 17vh;
+    height: 13vh;
     transition: 2s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents {
@@ -50,7 +50,7 @@
     justify-content: left;
     align-items: center;
     gap: 0.5vh;
-    margin: 4.5vh 0 0 -35vw;
+    margin: 3vh 0 0 -35vw;
     opacity: 0;
     transition: 2s all ease-in-out;
   }
@@ -92,7 +92,7 @@
     border: 1px solid wheat;
     width: 25vw;
     height: 20vw;
-    margin: 4vh 5vw 0 0;
+    margin: 3vh 5vw 0 0;
     background-color: #080E2F;
     border: none;
   }
