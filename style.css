@@ -15,7 +15,7 @@
     top: 0;
     width: 100%;
     z-index: 98;
-    height: 13vh;
+    height: 15vh;
     transition: 2s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents {
@@ -68,12 +68,13 @@
   * body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
     background-color: #36395D;
     background-color: white;
+    background-color: #080E2F;
     padding: 2vw;
     border-radius: 5px;
+    border: 2px solid white;
   }
   * body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
-    color: #8081AA;
-    color: #080E2F;
+    color: white;
     font-size: 3.3vw;
     font-family: "Roboto", sans-serif;
   }
@@ -210,6 +211,7 @@
     justify-content: center;
     align-items: center;
     width: 80vw;
+    width: 100%;
     height: 11vw;
     background-color: #36395D;
     background-color: white;
@@ -219,7 +221,10 @@
     font-family: "Roboto", sans-serif;
     color: #8081AA;
     color: #080E2F;
+    color: white;
+    color: #36395D;
     font-size: 5vw;
+    text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .my_mantra {
     display: flex;
@@ -248,7 +253,7 @@
   * body .container #whole_page .section_two {
     background-color: #146166;
     background-color: #00313E;
-    height: 110vh;
+    height: 115vh;
   }
   * body .container #whole_page .section_two .section_two_top {
     display: flex;
@@ -529,7 +534,7 @@
     justify-content: center;
     align-items: center;
     background-color: #080E2F;
-    height: 100vh;
+    height: 105vh;
     transition: all 0.4s ease-out;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description {

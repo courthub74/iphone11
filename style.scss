@@ -78,7 +78,7 @@ $darkgrey: darkgrey;
                     top: 0;
                     width: 100%;
                     z-index: 98;
-                    height: 13vh;
+                    height: 15vh;
                     transition: 2s all ease-in-out;
                     .nav_top_contents {
                         display: flex;
@@ -131,15 +131,20 @@ $darkgrey: darkgrey;
                             .desc_menu_box {
                                 background-color: $portfolios;
                                 background-color: white;
+                                background-color: $mainblue;
                                 padding: 2vw;
                                 border-radius: 5px;
+                                border: 2px solid white;
                                 // width height below
                                 // width: 10vw;
                                 // height: 1vw;
                                 #job_description {
-                                    color: $positioncolor;
-                                    color: $mainblue;
+                                    // color: $positioncolor;
+                                    // color: $mainblue;
+                                    color: white;
+                                    // color: $portfolios;
                                     font-size: 3.3vw;
+                                    // font-size: 4vw;
                                     font-family: 'Roboto', sans-serif;
                                 }
                             }
@@ -325,16 +330,21 @@ $darkgrey: darkgrey;
                                 justify-content: center;
                                 align-items: center;
                                 width: 80vw;
+                                width: 100%;
                                 height: 11vw;
                                 background-color: $portfolios;
                                 background-color: white;
+                                // background-color: $mainblue;
                                 border-radius: 5px;
+                                // border: 2px solid white;
                                 p {
                                     font-family: 'Roboto', sans-serif;
                                     color: $positioncolor;
                                     color: $mainblue;
-                                    // color: white;
+                                    color: white;
+                                    color: $portfolios;
                                     font-size: 5vw;
+                                    text-align: center;
                                 }
                             }
                             .my_mantra {
@@ -373,7 +383,7 @@ $darkgrey: darkgrey;
                     .section_two {
                         background-color: $skillsteal;
                         background-color: $nextgreen;
-                        height: 110vh;
+                        height: 115vh;
                         .section_two_top {
                             display: flex;
                             .about_title {
@@ -695,7 +705,7 @@ $darkgrey: darkgrey;
                                     justify-content: center;
                                     align-items: center;
                                     background-color: $mainblue;
-                                    height: 100vh;
+                                    height: 105vh;
                                     transition: all .4s ease-out;
                                     .app2description {
                                         border: 2px solid $portfolios;
