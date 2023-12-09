@@ -480,7 +480,7 @@
   * body .container #whole_page .section_three .section_three_bottom .appcontent .appdescription .app1_links {
     display: flex;
     gap: 4vw;
-    margin: 6vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link {
     display: flex;
@@ -543,7 +543,7 @@
     border-radius: 5px;
     flex-direction: column;
     width: 80%;
-    height: 95vh;
+    height: 85vh;
     transition: ease-in 0.8s;
     display: flex;
     flex-direction: column;
@@ -665,7 +665,7 @@
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_links {
     display: flex;
     gap: 4vw;
-    margin: 6vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_links .github_link {
     display: flex;
