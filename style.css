@@ -665,7 +665,7 @@
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_links {
     display: flex;
     gap: 4vw;
-    margin: 4vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description .app2_links .github_link {
     display: flex;
