@@ -534,7 +534,7 @@
     justify-content: center;
     align-items: center;
     background-color: #080E2F;
-    height: 105vh;
+    height: 100vh;
     transition: all 0.4s ease-out;
   }
   * body .container #whole_page .section_three .section_three_bottom .app2content .app2description {
@@ -543,7 +543,7 @@
     border-radius: 5px;
     flex-direction: column;
     width: 80%;
-    height: 85vh;
+    height: 95vh;
     transition: ease-in 0.8s;
     display: flex;
     flex-direction: column;
