@@ -1970,6 +1970,7 @@ $darkgrey: darkgrey;
         body {
             .container {
                 background-color: $mainblue;
+                // background-color: red;
                 margin: 0;
                 // Top NavBar that is static
                 .the_top_nav {
@@ -2362,8 +2363,12 @@ $darkgrey: darkgrey;
                     // Portfolio Section
                     .section_three {
                         background-color: $darkblue;
-                        height: 100vh;
+                        margin: -10vh 0 0 0;
+                        // background-color: #00C6C3;
+                        height: 105vh;
+                        padding-top: 1.5vh;
                         .section_three_top {
+                            margin: 5vh 0 0 0;
                             .about_title {
                                 font-family: 'Inter', sans-serif;
                                 font-size: 10vw;
@@ -2835,7 +2840,7 @@ $darkgrey: darkgrey;
                                 // Portfolio App Button
                                 .portfolio_square {
                                     width: 80vw;
-                                    height: 30vw;
+                                    height: 20vw;
                                     border: 1px solid $portfolios;
                                     // border: 3px solid $skillswhite;
                                     box-shadow: 6px 6px 5px $boxshadowcircles;
@@ -2850,8 +2855,15 @@ $darkgrey: darkgrey;
                                         align-items: center;
                                         height: 100%;
                                         // Move the create collab to center
+                                        #skill_project {
+                                            width: 50vw;
+                                            height: 8vw;
+                                        }
                                         #create_collab {
                                             margin-left: 9vw;
+                                            width: 55vw;
+                                            height: 10vw;
+                                            // background-color: yellow;
                                         }
                                     }
                                 }

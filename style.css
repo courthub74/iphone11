@@ -1987,7 +1987,12 @@
   }
   * body .container #whole_page .section_three {
     background-color: #080E2F;
-    height: 100vh;
+    margin: -10vh 0 0 0;
+    height: 105vh;
+    padding-top: 1.5vh;
+  }
+  * body .container #whole_page .section_three .section_three_top {
+    margin: 5vh 0 0 0;
   }
   * body .container #whole_page .section_three .section_three_top .about_title {
     font-family: "Inter", sans-serif;
@@ -2414,7 +2419,7 @@
   }
   * body .container #whole_page .section_three .section_three_bottom .portfolio_squares .portfolio_square {
     width: 80vw;
-    height: 30vw;
+    height: 20vw;
     border: 1px solid #36395D;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.521);
     box-shadow: 6px 6px 10px black;
@@ -2427,8 +2432,14 @@
     align-items: center;
     height: 100%;
   }
+  * body .container #whole_page .section_three .section_three_bottom .portfolio_squares .portfolio_square .app #skill_project {
+    width: 50vw;
+    height: 8vw;
+  }
   * body .container #whole_page .section_three .section_three_bottom .portfolio_squares .portfolio_square .app #create_collab {
     margin-left: 9vw;
+    width: 55vw;
+    height: 10vw;
   }
   * body .container #whole_page .section_four {
     background-color: #146166;
