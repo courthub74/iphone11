@@ -1979,7 +1979,7 @@ $darkgrey: darkgrey;
                     top: 0;
                     width: 100%;
                     z-index: 98;
-                    height: 15vh;
+                    height: 18vh;
                     transition: 2s all ease-in-out;
                     .nav_top_contents {
                         display: flex;
@@ -2070,7 +2070,7 @@ $darkgrey: darkgrey;
                                 width: 25vw;
                                 height: 20vw;
                                 // margin: 5vh 0 0 0;
-                                margin: 3vh 5vw 0 0;
+                                margin: 2.5vh 5vw 0 0;
                                 background-color: $mainblue;
                                 border: none;
                                 #top_hamburger {
@@ -2169,21 +2169,22 @@ $darkgrey: darkgrey;
                         justify-content: center;
                         align-items: center;
                         background-color: $darkblue;
-                        height: 90vh;
+                        height: 100vh;
                         .section_one_headshot {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            margin: -30vh 3vw -5vh 0;
+                            margin: 0vh 3vw -5vh 0;
+                            margin: -10vh 3vw 0 0;
                             // background-color: orange;
                             // margin: 0vh 0 0 0;
                             #home_headshot {
-                                width: 50vw;
-                                height: 50vw;
+                                width: 35vw;
+                                height: 35vw;
                                 border-radius: 50%; 
                                 position: absolute; 
-                                margin: -85vw 0 0 0; 
+                                margin: -100vw 0 0 0; 
                             }
                             .back_circle {
                                 width: 50vw;
@@ -2199,25 +2200,25 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            margin: -13vh 5vw 0 0;
+                            margin: -20vh 5vw 0 0;
                             // height: 100vh;
                             .home_name {
                                 margin: 0vh 0 13vh 0;
-                                margin: 0 0 2vh 0;
+                                margin: -35vh 0 2vh 0;
                                 text-align: center;
                                 h1 {
                                     font-family: 'Inter', sans-serif;
                                     color: white;
                                     // color: $positioncolor;
-                                    font-size: 7vw;
+                                    font-size: 6vw;
                                 }
                             }
                             .job_description {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 80vw;
-                                width: 100%;
+                                width: 65vw;
+                                // width: 100%;
                                 height: 11vw;
                                 background-color: $portfolios;
                                 background-color: white;
@@ -2230,26 +2231,26 @@ $darkgrey: darkgrey;
                                     color: $mainblue;
                                     color: white;
                                     color: $portfolios;
-                                    font-size: 5vw;
+                                    font-size: 4vw;
                                     text-align: center;
                                 }
                             }
                             .my_mantra {
                                 display: flex;
-                                margin: 10vh 0 0 0;
+                                margin: 2vh 0 0 0;
                                 p {
                                     color: white;
                                     // color: $positioncolor;
                                     font-family: 'Roboto', sans-serif;
-                                    font-size: 4.5vw;
+                                    font-size: 3.5vw;
                                     // font-weight: bold;
                                     text-align: center;
                                 }
                             }
                             .learn_more {
-                                width: 80vw;
+                                width: 65vw;
                                 height: 10vw;
-                                margin: 8vh 0 -45vh 0;
+                                margin: 5vh 0 -45vh 0;
                                 border-radius: 5px;
                                 background-color: $portfolios;
                                 // background-color: $mainblue;

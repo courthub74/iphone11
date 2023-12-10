@@ -1676,7 +1676,7 @@
     top: 0;
     width: 100%;
     z-index: 98;
-    height: 15vh;
+    height: 18vh;
     transition: 2s all ease-in-out;
   }
   * body .container .the_top_nav .nav_top_contents {
@@ -1753,7 +1753,7 @@
     border: 1px solid wheat;
     width: 25vw;
     height: 20vw;
-    margin: 3vh 5vw 0 0;
+    margin: 2.5vh 5vw 0 0;
     background-color: #080E2F;
     border: none;
   }
@@ -1828,21 +1828,22 @@
     justify-content: center;
     align-items: center;
     background-color: #080E2F;
-    height: 90vh;
+    height: 100vh;
   }
   * body .container #whole_page .section_one .section_one_headshot {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -30vh 3vw -5vh 0;
+    margin: 0vh 3vw -5vh 0;
+    margin: -10vh 3vw 0 0;
   }
   * body .container #whole_page .section_one .section_one_headshot #home_headshot {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
     position: absolute;
-    margin: -85vw 0 0 0;
+    margin: -100vw 0 0 0;
   }
   * body .container #whole_page .section_one .section_one_headshot .back_circle {
     width: 50vw;
@@ -1854,24 +1855,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -13vh 5vw 0 0;
+    margin: -20vh 5vw 0 0;
   }
   * body .container #whole_page .section_one .section_one_content .home_name {
     margin: 0vh 0 13vh 0;
-    margin: 0 0 2vh 0;
+    margin: -35vh 0 2vh 0;
     text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .home_name h1 {
     font-family: "Inter", sans-serif;
     color: white;
-    font-size: 7vw;
+    font-size: 6vw;
   }
   * body .container #whole_page .section_one .section_one_content .job_description {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    width: 100%;
+    width: 65vw;
     height: 11vw;
     background-color: #36395D;
     background-color: white;
@@ -1883,23 +1883,23 @@
     color: #080E2F;
     color: white;
     color: #36395D;
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .my_mantra {
     display: flex;
-    margin: 10vh 0 0 0;
+    margin: 2vh 0 0 0;
   }
   * body .container #whole_page .section_one .section_one_content .my_mantra p {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     text-align: center;
   }
   * body .container #whole_page .section_one .section_one_content .learn_more {
-    width: 80vw;
+    width: 65vw;
     height: 10vw;
-    margin: 8vh 0 -45vh 0;
+    margin: 5vh 0 -45vh 0;
     border-radius: 5px;
     background-color: #36395D;
     border: none;
