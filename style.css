@@ -1660,6 +1660,16 @@
     overflow: hidden;
   }
 }
+@media screen and (min-width: 450px) and (max-width: 1000px) and (orientation: landscape) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * body .container {
+    background-color: red;
+  }
+}
 @media screen and (min-width: 451px) {
   * {
     margin: 0;
