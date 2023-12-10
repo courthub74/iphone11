@@ -60,7 +60,7 @@ $darkred: darkred;
 $darkgreen: darkgreen;
 $darkgrey: darkgrey;
 
-// Mobile
+// Small Mobile (portrait)
 @media screen and (max-width: 450px) {
     * {
         margin: 0;
@@ -1946,6 +1946,21 @@ $darkgrey: darkgrey;
     }
 }
 
+// Small mobile (landscape)
+// @media screen and (min-width: 450px) and (max-width: 1824px) {
+//     * {
+//         margin: 0;
+//         scroll-behavior: smooth;
+//         scroll-snap-type: y mandatory;
+//         body {
+//             .container {
+//                 background-color: red;
+//             }
+//         }
+//     }
+    
+// }
+
 // Tablet
 @media screen and (min-width: 451px) {
     * {
@@ -1954,7 +1969,7 @@ $darkgrey: darkgrey;
         scroll-snap-type: y mandatory;
         body {
             .container {
-                background-color: $otherblue;
+                background-color: red;
                 margin: 0;
                 // Top NavBar that is static
             }

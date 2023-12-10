@@ -1667,7 +1667,7 @@
     scroll-snap-type: y mandatory;
   }
   * body .container {
-    background-color: #00567F;
+    background-color: red;
     margin: 0;
   }
 }
