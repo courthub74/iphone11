@@ -1909,7 +1909,7 @@
     color: white;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
   * body .container #whole_page .section_two {
     background-color: #146166;
@@ -1939,7 +1939,7 @@
     width: 80%;
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .brand_name {
     display: flex;
@@ -1953,8 +1953,8 @@
     width: 100%;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .about_page_Logo #about_page_logo {
-    width: 32vw;
-    height: 32vw;
+    width: 25vw;
+    height: 25vw;
   }
   * body .container #whole_page .section_two .section_two_bottom .about_content .passion_block {
     border-bottom: 5px solid #146166;
@@ -1962,7 +1962,7 @@
     color: white;
     font-weight: bold;
     padding: 0vh 0vh 1vh 0vh;
-    font-size: 5vw;
+    font-size: 4.5vw;
     width: 100%;
     display: flex;
     justify-content: left;
@@ -1983,6 +1983,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
+    font-size: 3vw;
   }
   * body .container #whole_page .section_three {
     background-color: #080E2F;
